@@ -894,7 +894,7 @@ a.box:hover, a.box:focus {
 a.box:active {
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #3273dc; }
 
-.button, button.mozhack, a.button.mozhack {
+.button, button.SacredHacks, a.button.SacredHacks {
   -moz-appearance: none;
   -webkit-appearance: none;
   align-items: center;
@@ -926,669 +926,669 @@ a.box:active {
   padding-right: 0.75em;
   text-align: center;
   white-space: nowrap; }
-  .button:focus, button.mozhack:focus, a.button.mozhack:focus, .button.is-focused, button.is-focused.mozhack, a.is-focused.button.mozhack, .button:active, button.mozhack:active, a.button.mozhack:active, .button.is-active, button.is-active.mozhack, a.is-active.button.mozhack {
+  .button:focus, button.SacredHacks:focus, a.button.SacredHacks:focus, .button.is-focused, button.is-focused.SacredHacks, a.is-focused.button.SacredHacks, .button:active, button.SacredHacks:active, a.button.SacredHacks:active, .button.is-active, button.is-active.SacredHacks, a.is-active.button.SacredHacks {
     outline: none; }
-  .button[disabled], button[disabled].mozhack, a[disabled].button.mozhack {
+  .button[disabled], button[disabled].SacredHacks, a[disabled].button.SacredHacks {
     cursor: not-allowed; }
-  .button strong, button.mozhack strong, a.button.mozhack strong {
+  .button strong, button.SacredHacks strong, a.button.SacredHacks strong {
     color: inherit; }
-  .button .icon, button.mozhack .icon, a.button.mozhack .icon, .button .icon.is-small, button.mozhack .icon.is-small, .button .icon.is-medium, button.mozhack .icon.is-medium, .button .icon.is-large, button.mozhack .icon.is-large {
+  .button .icon, button.SacredHacks .icon, a.button.SacredHacks .icon, .button .icon.is-small, button.SacredHacks .icon.is-small, .button .icon.is-medium, button.SacredHacks .icon.is-medium, .button .icon.is-large, button.SacredHacks .icon.is-large {
     height: 1.5em;
     width: 1.5em; }
-  .button .icon:first-child:not(:last-child), button.mozhack .icon:first-child:not(:last-child) {
+  .button .icon:first-child:not(:last-child), button.SacredHacks .icon:first-child:not(:last-child) {
     margin-left: calc(-0.375em - 1px);
     margin-right: 0.1875em; }
-  .button .icon:last-child:not(:first-child), button.mozhack .icon:last-child:not(:first-child) {
+  .button .icon:last-child:not(:first-child), button.SacredHacks .icon:last-child:not(:first-child) {
     margin-left: 0.1875em;
     margin-right: calc(-0.375em - 1px); }
-  .button .icon:first-child:last-child, button.mozhack .icon:first-child:last-child {
+  .button .icon:first-child:last-child, button.SacredHacks .icon:first-child:last-child {
     margin-left: calc(-0.375em - 1px);
     margin-right: calc(-0.375em - 1px); }
-  .button:hover, button.mozhack:hover, a.button.mozhack:hover, .button.is-hovered, button.is-hovered.mozhack, a.is-hovered.button.mozhack {
+  .button:hover, button.SacredHacks:hover, a.button.SacredHacks:hover, .button.is-hovered, button.is-hovered.SacredHacks, a.is-hovered.button.SacredHacks {
     border-color: #b5b5b5;
     color: #363636; }
-  .button:focus, button.mozhack:focus, a.button.mozhack:focus, .button.is-focused, button.is-focused.mozhack, a.is-focused.button.mozhack {
+  .button:focus, button.SacredHacks:focus, a.button.SacredHacks:focus, .button.is-focused, button.is-focused.SacredHacks, a.is-focused.button.SacredHacks {
     border-color: #3273dc;
     color: #363636; }
-    .button:focus:not(:active), button.mozhack:focus:not(:active), .button.is-focused:not(:active), button.is-focused.mozhack:not(:active) {
+    .button:focus:not(:active), button.SacredHacks:focus:not(:active), .button.is-focused:not(:active), button.is-focused.SacredHacks:not(:active) {
       box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25); }
-  .button:active, button.mozhack:active, a.button.mozhack:active, .button.is-active, button.is-active.mozhack, a.is-active.button.mozhack {
+  .button:active, button.SacredHacks:active, a.button.SacredHacks:active, .button.is-active, button.is-active.SacredHacks, a.is-active.button.SacredHacks {
     border-color: #4a4a4a;
     color: #363636; }
-  .button.is-text, button.is-text.mozhack, a.is-text.button.mozhack {
+  .button.is-text, button.is-text.SacredHacks, a.is-text.button.SacredHacks {
     background-color: transparent;
     border-color: transparent;
     color: #4a4a4a;
     text-decoration: underline; }
-    .button.is-text:hover, button.is-text.mozhack:hover, .button.is-text.is-hovered, button.is-text.is-hovered.mozhack, .button.is-text:focus, button.is-text.mozhack:focus, .button.is-text.is-focused, button.is-text.is-focused.mozhack {
+    .button.is-text:hover, button.is-text.SacredHacks:hover, .button.is-text.is-hovered, button.is-text.is-hovered.SacredHacks, .button.is-text:focus, button.is-text.SacredHacks:focus, .button.is-text.is-focused, button.is-text.is-focused.SacredHacks {
       background-color: whitesmoke;
       color: #363636; }
-    .button.is-text:active, button.is-text.mozhack:active, .button.is-text.is-active, button.is-text.is-active.mozhack {
+    .button.is-text:active, button.is-text.SacredHacks:active, .button.is-text.is-active, button.is-text.is-active.SacredHacks {
       background-color: #e8e8e8;
       color: #363636; }
-    .button.is-text[disabled], button.is-text[disabled].mozhack {
+    .button.is-text[disabled], button.is-text[disabled].SacredHacks {
       background-color: transparent;
       border-color: transparent;
       box-shadow: none; }
-  .button.is-white, button.is-white.mozhack, a.is-white.button.mozhack {
+  .button.is-white, button.is-white.SacredHacks, a.is-white.button.SacredHacks {
     background-color: white;
     border-color: transparent;
     color: #0a0a0a; }
-    .button.is-white:hover, button.is-white.mozhack:hover, .button.is-white.is-hovered, button.is-white.is-hovered.mozhack {
+    .button.is-white:hover, button.is-white.SacredHacks:hover, .button.is-white.is-hovered, button.is-white.is-hovered.SacredHacks {
       background-color: #f9f9f9;
       border-color: transparent;
       color: #0a0a0a; }
-    .button.is-white:focus, button.is-white.mozhack:focus, .button.is-white.is-focused, button.is-white.is-focused.mozhack {
+    .button.is-white:focus, button.is-white.SacredHacks:focus, .button.is-white.is-focused, button.is-white.is-focused.SacredHacks {
       border-color: transparent;
       color: #0a0a0a; }
-      .button.is-white:focus:not(:active), button.is-white.mozhack:focus:not(:active), .button.is-white.is-focused:not(:active), button.is-white.is-focused.mozhack:not(:active) {
+      .button.is-white:focus:not(:active), button.is-white.SacredHacks:focus:not(:active), .button.is-white.is-focused:not(:active), button.is-white.is-focused.SacredHacks:not(:active) {
         box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25); }
-    .button.is-white:active, button.is-white.mozhack:active, .button.is-white.is-active, button.is-white.is-active.mozhack {
+    .button.is-white:active, button.is-white.SacredHacks:active, .button.is-white.is-active, button.is-white.is-active.SacredHacks {
       background-color: #f2f2f2;
       border-color: transparent;
       color: #0a0a0a; }
-    .button.is-white[disabled], button.is-white[disabled].mozhack {
+    .button.is-white[disabled], button.is-white[disabled].SacredHacks {
       background-color: white;
       border-color: transparent;
       box-shadow: none; }
-    .button.is-white.is-inverted, button.is-white.is-inverted.mozhack {
+    .button.is-white.is-inverted, button.is-white.is-inverted.SacredHacks {
       background-color: #0a0a0a;
       color: white; }
-      .button.is-white.is-inverted:hover, button.is-white.is-inverted.mozhack:hover {
+      .button.is-white.is-inverted:hover, button.is-white.is-inverted.SacredHacks:hover {
         background-color: black; }
-      .button.is-white.is-inverted[disabled], button.is-white.is-inverted[disabled].mozhack {
+      .button.is-white.is-inverted[disabled], button.is-white.is-inverted[disabled].SacredHacks {
         background-color: #0a0a0a;
         border-color: transparent;
         box-shadow: none;
         color: white; }
-    .button.is-white.is-loading:after, button.is-white.is-loading.mozhack:after {
+    .button.is-white.is-loading:after, button.is-white.is-loading.SacredHacks:after {
       border-color: transparent transparent #0a0a0a #0a0a0a !important; }
-    .button.is-white.is-outlined, button.is-white.is-outlined.mozhack {
+    .button.is-white.is-outlined, button.is-white.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: white;
       color: white; }
-      .button.is-white.is-outlined:hover, button.is-white.is-outlined.mozhack:hover, .button.is-white.is-outlined:focus, button.is-white.is-outlined.mozhack:focus {
+      .button.is-white.is-outlined:hover, button.is-white.is-outlined.SacredHacks:hover, .button.is-white.is-outlined:focus, button.is-white.is-outlined.SacredHacks:focus {
         background-color: white;
         border-color: white;
         color: #0a0a0a; }
-      .button.is-white.is-outlined.is-loading:after, button.is-white.is-outlined.is-loading.mozhack:after {
+      .button.is-white.is-outlined.is-loading:after, button.is-white.is-outlined.is-loading.SacredHacks:after {
         border-color: transparent transparent white white !important; }
-      .button.is-white.is-outlined[disabled], button.is-white.is-outlined[disabled].mozhack {
+      .button.is-white.is-outlined[disabled], button.is-white.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: white;
         box-shadow: none;
         color: white; }
-    .button.is-white.is-inverted.is-outlined, button.is-white.is-inverted.is-outlined.mozhack {
+    .button.is-white.is-inverted.is-outlined, button.is-white.is-inverted.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: #0a0a0a;
       color: #0a0a0a; }
-      .button.is-white.is-inverted.is-outlined:hover, button.is-white.is-inverted.is-outlined.mozhack:hover, .button.is-white.is-inverted.is-outlined:focus, button.is-white.is-inverted.is-outlined.mozhack:focus {
+      .button.is-white.is-inverted.is-outlined:hover, button.is-white.is-inverted.is-outlined.SacredHacks:hover, .button.is-white.is-inverted.is-outlined:focus, button.is-white.is-inverted.is-outlined.SacredHacks:focus {
         background-color: #0a0a0a;
         color: white; }
-      .button.is-white.is-inverted.is-outlined[disabled], button.is-white.is-inverted.is-outlined[disabled].mozhack {
+      .button.is-white.is-inverted.is-outlined[disabled], button.is-white.is-inverted.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: #0a0a0a;
         box-shadow: none;
         color: #0a0a0a; }
-  .button.is-black, button.is-black.mozhack, a.is-black.button.mozhack {
+  .button.is-black, button.is-black.SacredHacks, a.is-black.button.SacredHacks {
     background-color: #0a0a0a;
     border-color: transparent;
     color: white; }
-    .button.is-black:hover, button.is-black.mozhack:hover, .button.is-black.is-hovered, button.is-black.is-hovered.mozhack {
+    .button.is-black:hover, button.is-black.SacredHacks:hover, .button.is-black.is-hovered, button.is-black.is-hovered.SacredHacks {
       background-color: #040404;
       border-color: transparent;
       color: white; }
-    .button.is-black:focus, button.is-black.mozhack:focus, .button.is-black.is-focused, button.is-black.is-focused.mozhack {
+    .button.is-black:focus, button.is-black.SacredHacks:focus, .button.is-black.is-focused, button.is-black.is-focused.SacredHacks {
       border-color: transparent;
       color: white; }
-      .button.is-black:focus:not(:active), button.is-black.mozhack:focus:not(:active), .button.is-black.is-focused:not(:active), button.is-black.is-focused.mozhack:not(:active) {
+      .button.is-black:focus:not(:active), button.is-black.SacredHacks:focus:not(:active), .button.is-black.is-focused:not(:active), button.is-black.is-focused.SacredHacks:not(:active) {
         box-shadow: 0 0 0 0.125em rgba(10, 10, 10, 0.25); }
-    .button.is-black:active, button.is-black.mozhack:active, .button.is-black.is-active, button.is-black.is-active.mozhack {
+    .button.is-black:active, button.is-black.SacredHacks:active, .button.is-black.is-active, button.is-black.is-active.SacredHacks {
       background-color: black;
       border-color: transparent;
       color: white; }
-    .button.is-black[disabled], button.is-black[disabled].mozhack {
+    .button.is-black[disabled], button.is-black[disabled].SacredHacks {
       background-color: #0a0a0a;
       border-color: transparent;
       box-shadow: none; }
-    .button.is-black.is-inverted, button.is-black.is-inverted.mozhack {
+    .button.is-black.is-inverted, button.is-black.is-inverted.SacredHacks {
       background-color: white;
       color: #0a0a0a; }
-      .button.is-black.is-inverted:hover, button.is-black.is-inverted.mozhack:hover {
+      .button.is-black.is-inverted:hover, button.is-black.is-inverted.SacredHacks:hover {
         background-color: #f2f2f2; }
-      .button.is-black.is-inverted[disabled], button.is-black.is-inverted[disabled].mozhack {
+      .button.is-black.is-inverted[disabled], button.is-black.is-inverted[disabled].SacredHacks {
         background-color: white;
         border-color: transparent;
         box-shadow: none;
         color: #0a0a0a; }
-    .button.is-black.is-loading:after, button.is-black.is-loading.mozhack:after {
+    .button.is-black.is-loading:after, button.is-black.is-loading.SacredHacks:after {
       border-color: transparent transparent white white !important; }
-    .button.is-black.is-outlined, button.is-black.is-outlined.mozhack {
+    .button.is-black.is-outlined, button.is-black.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: #0a0a0a;
       color: #0a0a0a; }
-      .button.is-black.is-outlined:hover, button.is-black.is-outlined.mozhack:hover, .button.is-black.is-outlined:focus, button.is-black.is-outlined.mozhack:focus {
+      .button.is-black.is-outlined:hover, button.is-black.is-outlined.SacredHacks:hover, .button.is-black.is-outlined:focus, button.is-black.is-outlined.SacredHacks:focus {
         background-color: #0a0a0a;
         border-color: #0a0a0a;
         color: white; }
-      .button.is-black.is-outlined.is-loading:after, button.is-black.is-outlined.is-loading.mozhack:after {
+      .button.is-black.is-outlined.is-loading:after, button.is-black.is-outlined.is-loading.SacredHacks:after {
         border-color: transparent transparent #0a0a0a #0a0a0a !important; }
-      .button.is-black.is-outlined[disabled], button.is-black.is-outlined[disabled].mozhack {
+      .button.is-black.is-outlined[disabled], button.is-black.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: #0a0a0a;
         box-shadow: none;
         color: #0a0a0a; }
-    .button.is-black.is-inverted.is-outlined, button.is-black.is-inverted.is-outlined.mozhack {
+    .button.is-black.is-inverted.is-outlined, button.is-black.is-inverted.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: white;
       color: white; }
-      .button.is-black.is-inverted.is-outlined:hover, button.is-black.is-inverted.is-outlined.mozhack:hover, .button.is-black.is-inverted.is-outlined:focus, button.is-black.is-inverted.is-outlined.mozhack:focus {
+      .button.is-black.is-inverted.is-outlined:hover, button.is-black.is-inverted.is-outlined.SacredHacks:hover, .button.is-black.is-inverted.is-outlined:focus, button.is-black.is-inverted.is-outlined.SacredHacks:focus {
         background-color: white;
         color: #0a0a0a; }
-      .button.is-black.is-inverted.is-outlined[disabled], button.is-black.is-inverted.is-outlined[disabled].mozhack {
+      .button.is-black.is-inverted.is-outlined[disabled], button.is-black.is-inverted.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: white;
         box-shadow: none;
         color: white; }
-  .button.is-light, button.is-light.mozhack, a.is-light.button.mozhack {
+  .button.is-light, button.is-light.SacredHacks, a.is-light.button.SacredHacks {
     background-color: whitesmoke;
     border-color: transparent;
     color: #363636; }
-    .button.is-light:hover, button.is-light.mozhack:hover, .button.is-light.is-hovered, button.is-light.is-hovered.mozhack {
+    .button.is-light:hover, button.is-light.SacredHacks:hover, .button.is-light.is-hovered, button.is-light.is-hovered.SacredHacks {
       background-color: #eeeeee;
       border-color: transparent;
       color: #363636; }
-    .button.is-light:focus, button.is-light.mozhack:focus, .button.is-light.is-focused, button.is-light.is-focused.mozhack {
+    .button.is-light:focus, button.is-light.SacredHacks:focus, .button.is-light.is-focused, button.is-light.is-focused.SacredHacks {
       border-color: transparent;
       color: #363636; }
-      .button.is-light:focus:not(:active), button.is-light.mozhack:focus:not(:active), .button.is-light.is-focused:not(:active), button.is-light.is-focused.mozhack:not(:active) {
+      .button.is-light:focus:not(:active), button.is-light.SacredHacks:focus:not(:active), .button.is-light.is-focused:not(:active), button.is-light.is-focused.SacredHacks:not(:active) {
         box-shadow: 0 0 0 0.125em rgba(245, 245, 245, 0.25); }
-    .button.is-light:active, button.is-light.mozhack:active, .button.is-light.is-active, button.is-light.is-active.mozhack {
+    .button.is-light:active, button.is-light.SacredHacks:active, .button.is-light.is-active, button.is-light.is-active.SacredHacks {
       background-color: #e8e8e8;
       border-color: transparent;
       color: #363636; }
-    .button.is-light[disabled], button.is-light[disabled].mozhack {
+    .button.is-light[disabled], button.is-light[disabled].SacredHacks {
       background-color: whitesmoke;
       border-color: transparent;
       box-shadow: none; }
-    .button.is-light.is-inverted, button.is-light.is-inverted.mozhack {
+    .button.is-light.is-inverted, button.is-light.is-inverted.SacredHacks {
       background-color: #363636;
       color: whitesmoke; }
-      .button.is-light.is-inverted:hover, button.is-light.is-inverted.mozhack:hover {
+      .button.is-light.is-inverted:hover, button.is-light.is-inverted.SacredHacks:hover {
         background-color: #292929; }
-      .button.is-light.is-inverted[disabled], button.is-light.is-inverted[disabled].mozhack {
+      .button.is-light.is-inverted[disabled], button.is-light.is-inverted[disabled].SacredHacks {
         background-color: #363636;
         border-color: transparent;
         box-shadow: none;
         color: whitesmoke; }
-    .button.is-light.is-loading:after, button.is-light.is-loading.mozhack:after {
+    .button.is-light.is-loading:after, button.is-light.is-loading.SacredHacks:after {
       border-color: transparent transparent #363636 #363636 !important; }
-    .button.is-light.is-outlined, button.is-light.is-outlined.mozhack {
+    .button.is-light.is-outlined, button.is-light.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: whitesmoke;
       color: whitesmoke; }
-      .button.is-light.is-outlined:hover, button.is-light.is-outlined.mozhack:hover, .button.is-light.is-outlined:focus, button.is-light.is-outlined.mozhack:focus {
+      .button.is-light.is-outlined:hover, button.is-light.is-outlined.SacredHacks:hover, .button.is-light.is-outlined:focus, button.is-light.is-outlined.SacredHacks:focus {
         background-color: whitesmoke;
         border-color: whitesmoke;
         color: #363636; }
-      .button.is-light.is-outlined.is-loading:after, button.is-light.is-outlined.is-loading.mozhack:after {
+      .button.is-light.is-outlined.is-loading:after, button.is-light.is-outlined.is-loading.SacredHacks:after {
         border-color: transparent transparent whitesmoke whitesmoke !important; }
-      .button.is-light.is-outlined[disabled], button.is-light.is-outlined[disabled].mozhack {
+      .button.is-light.is-outlined[disabled], button.is-light.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: whitesmoke;
         box-shadow: none;
         color: whitesmoke; }
-    .button.is-light.is-inverted.is-outlined, button.is-light.is-inverted.is-outlined.mozhack {
+    .button.is-light.is-inverted.is-outlined, button.is-light.is-inverted.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: #363636;
       color: #363636; }
-      .button.is-light.is-inverted.is-outlined:hover, button.is-light.is-inverted.is-outlined.mozhack:hover, .button.is-light.is-inverted.is-outlined:focus, button.is-light.is-inverted.is-outlined.mozhack:focus {
+      .button.is-light.is-inverted.is-outlined:hover, button.is-light.is-inverted.is-outlined.SacredHacks:hover, .button.is-light.is-inverted.is-outlined:focus, button.is-light.is-inverted.is-outlined.SacredHacks:focus {
         background-color: #363636;
         color: whitesmoke; }
-      .button.is-light.is-inverted.is-outlined[disabled], button.is-light.is-inverted.is-outlined[disabled].mozhack {
+      .button.is-light.is-inverted.is-outlined[disabled], button.is-light.is-inverted.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: #363636;
         box-shadow: none;
         color: #363636; }
-  .button.is-dark, button.is-dark.mozhack, a.is-dark.button.mozhack {
+  .button.is-dark, button.is-dark.SacredHacks, a.is-dark.button.SacredHacks {
     background-color: #363636;
     border-color: transparent;
     color: whitesmoke; }
-    .button.is-dark:hover, button.is-dark.mozhack:hover, .button.is-dark.is-hovered, button.is-dark.is-hovered.mozhack {
+    .button.is-dark:hover, button.is-dark.SacredHacks:hover, .button.is-dark.is-hovered, button.is-dark.is-hovered.SacredHacks {
       background-color: #2f2f2f;
       border-color: transparent;
       color: whitesmoke; }
-    .button.is-dark:focus, button.is-dark.mozhack:focus, .button.is-dark.is-focused, button.is-dark.is-focused.mozhack {
+    .button.is-dark:focus, button.is-dark.SacredHacks:focus, .button.is-dark.is-focused, button.is-dark.is-focused.SacredHacks {
       border-color: transparent;
       color: whitesmoke; }
-      .button.is-dark:focus:not(:active), button.is-dark.mozhack:focus:not(:active), .button.is-dark.is-focused:not(:active), button.is-dark.is-focused.mozhack:not(:active) {
+      .button.is-dark:focus:not(:active), button.is-dark.SacredHacks:focus:not(:active), .button.is-dark.is-focused:not(:active), button.is-dark.is-focused.SacredHacks:not(:active) {
         box-shadow: 0 0 0 0.125em rgba(54, 54, 54, 0.25); }
-    .button.is-dark:active, button.is-dark.mozhack:active, .button.is-dark.is-active, button.is-dark.is-active.mozhack {
+    .button.is-dark:active, button.is-dark.SacredHacks:active, .button.is-dark.is-active, button.is-dark.is-active.SacredHacks {
       background-color: #292929;
       border-color: transparent;
       color: whitesmoke; }
-    .button.is-dark[disabled], button.is-dark[disabled].mozhack {
+    .button.is-dark[disabled], button.is-dark[disabled].SacredHacks {
       background-color: #363636;
       border-color: transparent;
       box-shadow: none; }
-    .button.is-dark.is-inverted, button.is-dark.is-inverted.mozhack {
+    .button.is-dark.is-inverted, button.is-dark.is-inverted.SacredHacks {
       background-color: whitesmoke;
       color: #363636; }
-      .button.is-dark.is-inverted:hover, button.is-dark.is-inverted.mozhack:hover {
+      .button.is-dark.is-inverted:hover, button.is-dark.is-inverted.SacredHacks:hover {
         background-color: #e8e8e8; }
-      .button.is-dark.is-inverted[disabled], button.is-dark.is-inverted[disabled].mozhack {
+      .button.is-dark.is-inverted[disabled], button.is-dark.is-inverted[disabled].SacredHacks {
         background-color: whitesmoke;
         border-color: transparent;
         box-shadow: none;
         color: #363636; }
-    .button.is-dark.is-loading:after, button.is-dark.is-loading.mozhack:after {
+    .button.is-dark.is-loading:after, button.is-dark.is-loading.SacredHacks:after {
       border-color: transparent transparent whitesmoke whitesmoke !important; }
-    .button.is-dark.is-outlined, button.is-dark.is-outlined.mozhack {
+    .button.is-dark.is-outlined, button.is-dark.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: #363636;
       color: #363636; }
-      .button.is-dark.is-outlined:hover, button.is-dark.is-outlined.mozhack:hover, .button.is-dark.is-outlined:focus, button.is-dark.is-outlined.mozhack:focus {
+      .button.is-dark.is-outlined:hover, button.is-dark.is-outlined.SacredHacks:hover, .button.is-dark.is-outlined:focus, button.is-dark.is-outlined.SacredHacks:focus {
         background-color: #363636;
         border-color: #363636;
         color: whitesmoke; }
-      .button.is-dark.is-outlined.is-loading:after, button.is-dark.is-outlined.is-loading.mozhack:after {
+      .button.is-dark.is-outlined.is-loading:after, button.is-dark.is-outlined.is-loading.SacredHacks:after {
         border-color: transparent transparent #363636 #363636 !important; }
-      .button.is-dark.is-outlined[disabled], button.is-dark.is-outlined[disabled].mozhack {
+      .button.is-dark.is-outlined[disabled], button.is-dark.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: #363636;
         box-shadow: none;
         color: #363636; }
-    .button.is-dark.is-inverted.is-outlined, button.is-dark.is-inverted.is-outlined.mozhack {
+    .button.is-dark.is-inverted.is-outlined, button.is-dark.is-inverted.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: whitesmoke;
       color: whitesmoke; }
-      .button.is-dark.is-inverted.is-outlined:hover, button.is-dark.is-inverted.is-outlined.mozhack:hover, .button.is-dark.is-inverted.is-outlined:focus, button.is-dark.is-inverted.is-outlined.mozhack:focus {
+      .button.is-dark.is-inverted.is-outlined:hover, button.is-dark.is-inverted.is-outlined.SacredHacks:hover, .button.is-dark.is-inverted.is-outlined:focus, button.is-dark.is-inverted.is-outlined.SacredHacks:focus {
         background-color: whitesmoke;
         color: #363636; }
-      .button.is-dark.is-inverted.is-outlined[disabled], button.is-dark.is-inverted.is-outlined[disabled].mozhack {
+      .button.is-dark.is-inverted.is-outlined[disabled], button.is-dark.is-inverted.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: whitesmoke;
         box-shadow: none;
         color: whitesmoke; }
-  .button.is-primary, button.is-primary.mozhack, a.is-primary.button.mozhack {
+  .button.is-primary, button.is-primary.SacredHacks, a.is-primary.button.SacredHacks {
     background-color: #ED76CB;
     border-color: transparent;
     color: #FEFE66; }
-    .button.is-primary:hover, button.is-primary.mozhack:hover, .button.is-primary.is-hovered, button.is-primary.is-hovered.mozhack {
+    .button.is-primary:hover, button.is-primary.SacredHacks:hover, .button.is-primary.is-hovered, button.is-primary.is-hovered.SacredHacks {
       background-color: #ec6bc7;
       border-color: transparent;
       color: #FEFE66; }
-    .button.is-primary:focus, button.is-primary.mozhack:focus, .button.is-primary.is-focused, button.is-primary.is-focused.mozhack {
+    .button.is-primary:focus, button.is-primary.SacredHacks:focus, .button.is-primary.is-focused, button.is-primary.is-focused.SacredHacks {
       border-color: transparent;
       color: #FEFE66; }
-      .button.is-primary:focus:not(:active), button.is-primary.mozhack:focus:not(:active), .button.is-primary.is-focused:not(:active), button.is-primary.is-focused.mozhack:not(:active) {
+      .button.is-primary:focus:not(:active), button.is-primary.SacredHacks:focus:not(:active), .button.is-primary.is-focused:not(:active), button.is-primary.is-focused.SacredHacks:not(:active) {
         box-shadow: 0 0 0 0.125em rgba(237, 118, 203, 0.25); }
-    .button.is-primary:active, button.is-primary.mozhack:active, .button.is-primary.is-active, button.is-primary.is-active.mozhack {
+    .button.is-primary:active, button.is-primary.SacredHacks:active, .button.is-primary.is-active, button.is-primary.is-active.SacredHacks {
       background-color: #ea5fc2;
       border-color: transparent;
       color: #FEFE66; }
-    .button.is-primary[disabled], button.is-primary[disabled].mozhack {
+    .button.is-primary[disabled], button.is-primary[disabled].SacredHacks {
       background-color: #ED76CB;
       border-color: transparent;
       box-shadow: none; }
-    .button.is-primary.is-inverted, button.is-primary.is-inverted.mozhack {
+    .button.is-primary.is-inverted, button.is-primary.is-inverted.SacredHacks {
       background-color: #FEFE66;
       color: #ED76CB; }
-      .button.is-primary.is-inverted:hover, button.is-primary.is-inverted.mozhack:hover {
+      .button.is-primary.is-inverted:hover, button.is-primary.is-inverted.SacredHacks:hover {
         background-color: #fefe4d; }
-      .button.is-primary.is-inverted[disabled], button.is-primary.is-inverted[disabled].mozhack {
+      .button.is-primary.is-inverted[disabled], button.is-primary.is-inverted[disabled].SacredHacks {
         background-color: #FEFE66;
         border-color: transparent;
         box-shadow: none;
         color: #ED76CB; }
-    .button.is-primary.is-loading:after, button.is-primary.is-loading.mozhack:after {
+    .button.is-primary.is-loading:after, button.is-primary.is-loading.SacredHacks:after {
       border-color: transparent transparent #FEFE66 #FEFE66 !important; }
-    .button.is-primary.is-outlined, button.is-primary.is-outlined.mozhack {
+    .button.is-primary.is-outlined, button.is-primary.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: #ED76CB;
       color: #ED76CB; }
-      .button.is-primary.is-outlined:hover, button.is-primary.is-outlined.mozhack:hover, .button.is-primary.is-outlined:focus, button.is-primary.is-outlined.mozhack:focus {
+      .button.is-primary.is-outlined:hover, button.is-primary.is-outlined.SacredHacks:hover, .button.is-primary.is-outlined:focus, button.is-primary.is-outlined.SacredHacks:focus {
         background-color: #ED76CB;
         border-color: #ED76CB;
         color: #FEFE66; }
-      .button.is-primary.is-outlined.is-loading:after, button.is-primary.is-outlined.is-loading.mozhack:after {
+      .button.is-primary.is-outlined.is-loading:after, button.is-primary.is-outlined.is-loading.SacredHacks:after {
         border-color: transparent transparent #ED76CB #ED76CB !important; }
-      .button.is-primary.is-outlined[disabled], button.is-primary.is-outlined[disabled].mozhack {
+      .button.is-primary.is-outlined[disabled], button.is-primary.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: #ED76CB;
         box-shadow: none;
         color: #ED76CB; }
-    .button.is-primary.is-inverted.is-outlined, button.is-primary.is-inverted.is-outlined.mozhack {
+    .button.is-primary.is-inverted.is-outlined, button.is-primary.is-inverted.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: #FEFE66;
       color: #FEFE66; }
-      .button.is-primary.is-inverted.is-outlined:hover, button.is-primary.is-inverted.is-outlined.mozhack:hover, .button.is-primary.is-inverted.is-outlined:focus, button.is-primary.is-inverted.is-outlined.mozhack:focus {
+      .button.is-primary.is-inverted.is-outlined:hover, button.is-primary.is-inverted.is-outlined.SacredHacks:hover, .button.is-primary.is-inverted.is-outlined:focus, button.is-primary.is-inverted.is-outlined.SacredHacks:focus {
         background-color: #FEFE66;
         color: #ED76CB; }
-      .button.is-primary.is-inverted.is-outlined[disabled], button.is-primary.is-inverted.is-outlined[disabled].mozhack {
+      .button.is-primary.is-inverted.is-outlined[disabled], button.is-primary.is-inverted.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: #FEFE66;
         box-shadow: none;
         color: #FEFE66; }
-  .button.is-link, button.is-link.mozhack, a.is-link.button.mozhack {
+  .button.is-link, button.is-link.SacredHacks, a.is-link.button.SacredHacks {
     background-color: #3273dc;
     border-color: transparent;
     color: #fff; }
-    .button.is-link:hover, button.is-link.mozhack:hover, .button.is-link.is-hovered, button.is-link.is-hovered.mozhack {
+    .button.is-link:hover, button.is-link.SacredHacks:hover, .button.is-link.is-hovered, button.is-link.is-hovered.SacredHacks {
       background-color: #276cda;
       border-color: transparent;
       color: #fff; }
-    .button.is-link:focus, button.is-link.mozhack:focus, .button.is-link.is-focused, button.is-link.is-focused.mozhack {
+    .button.is-link:focus, button.is-link.SacredHacks:focus, .button.is-link.is-focused, button.is-link.is-focused.SacredHacks {
       border-color: transparent;
       color: #fff; }
-      .button.is-link:focus:not(:active), button.is-link.mozhack:focus:not(:active), .button.is-link.is-focused:not(:active), button.is-link.is-focused.mozhack:not(:active) {
+      .button.is-link:focus:not(:active), button.is-link.SacredHacks:focus:not(:active), .button.is-link.is-focused:not(:active), button.is-link.is-focused.SacredHacks:not(:active) {
         box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25); }
-    .button.is-link:active, button.is-link.mozhack:active, .button.is-link.is-active, button.is-link.is-active.mozhack {
+    .button.is-link:active, button.is-link.SacredHacks:active, .button.is-link.is-active, button.is-link.is-active.SacredHacks {
       background-color: #2366d1;
       border-color: transparent;
       color: #fff; }
-    .button.is-link[disabled], button.is-link[disabled].mozhack {
+    .button.is-link[disabled], button.is-link[disabled].SacredHacks {
       background-color: #3273dc;
       border-color: transparent;
       box-shadow: none; }
-    .button.is-link.is-inverted, button.is-link.is-inverted.mozhack {
+    .button.is-link.is-inverted, button.is-link.is-inverted.SacredHacks {
       background-color: #fff;
       color: #3273dc; }
-      .button.is-link.is-inverted:hover, button.is-link.is-inverted.mozhack:hover {
+      .button.is-link.is-inverted:hover, button.is-link.is-inverted.SacredHacks:hover {
         background-color: #f2f2f2; }
-      .button.is-link.is-inverted[disabled], button.is-link.is-inverted[disabled].mozhack {
+      .button.is-link.is-inverted[disabled], button.is-link.is-inverted[disabled].SacredHacks {
         background-color: #fff;
         border-color: transparent;
         box-shadow: none;
         color: #3273dc; }
-    .button.is-link.is-loading:after, button.is-link.is-loading.mozhack:after {
+    .button.is-link.is-loading:after, button.is-link.is-loading.SacredHacks:after {
       border-color: transparent transparent #fff #fff !important; }
-    .button.is-link.is-outlined, button.is-link.is-outlined.mozhack {
+    .button.is-link.is-outlined, button.is-link.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: #3273dc;
       color: #3273dc; }
-      .button.is-link.is-outlined:hover, button.is-link.is-outlined.mozhack:hover, .button.is-link.is-outlined:focus, button.is-link.is-outlined.mozhack:focus {
+      .button.is-link.is-outlined:hover, button.is-link.is-outlined.SacredHacks:hover, .button.is-link.is-outlined:focus, button.is-link.is-outlined.SacredHacks:focus {
         background-color: #3273dc;
         border-color: #3273dc;
         color: #fff; }
-      .button.is-link.is-outlined.is-loading:after, button.is-link.is-outlined.is-loading.mozhack:after {
+      .button.is-link.is-outlined.is-loading:after, button.is-link.is-outlined.is-loading.SacredHacks:after {
         border-color: transparent transparent #3273dc #3273dc !important; }
-      .button.is-link.is-outlined[disabled], button.is-link.is-outlined[disabled].mozhack {
+      .button.is-link.is-outlined[disabled], button.is-link.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: #3273dc;
         box-shadow: none;
         color: #3273dc; }
-    .button.is-link.is-inverted.is-outlined, button.is-link.is-inverted.is-outlined.mozhack {
+    .button.is-link.is-inverted.is-outlined, button.is-link.is-inverted.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: #fff;
       color: #fff; }
-      .button.is-link.is-inverted.is-outlined:hover, button.is-link.is-inverted.is-outlined.mozhack:hover, .button.is-link.is-inverted.is-outlined:focus, button.is-link.is-inverted.is-outlined.mozhack:focus {
+      .button.is-link.is-inverted.is-outlined:hover, button.is-link.is-inverted.is-outlined.SacredHacks:hover, .button.is-link.is-inverted.is-outlined:focus, button.is-link.is-inverted.is-outlined.SacredHacks:focus {
         background-color: #fff;
         color: #3273dc; }
-      .button.is-link.is-inverted.is-outlined[disabled], button.is-link.is-inverted.is-outlined[disabled].mozhack {
+      .button.is-link.is-inverted.is-outlined[disabled], button.is-link.is-inverted.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: #fff;
         box-shadow: none;
         color: #fff; }
-  .button.is-info, button.is-info.mozhack, a.is-info.button.mozhack {
+  .button.is-info, button.is-info.SacredHacks, a.is-info.button.SacredHacks {
     background-color: #65dde4;
     border-color: transparent;
     color: rgba(0, 0, 0, 0.7); }
-    .button.is-info:hover, button.is-info.mozhack:hover, .button.is-info.is-hovered, button.is-info.is-hovered.mozhack {
+    .button.is-info:hover, button.is-info.SacredHacks:hover, .button.is-info.is-hovered, button.is-info.is-hovered.SacredHacks {
       background-color: #5adbe2;
       border-color: transparent;
       color: rgba(0, 0, 0, 0.7); }
-    .button.is-info:focus, button.is-info.mozhack:focus, .button.is-info.is-focused, button.is-info.is-focused.mozhack {
+    .button.is-info:focus, button.is-info.SacredHacks:focus, .button.is-info.is-focused, button.is-info.is-focused.SacredHacks {
       border-color: transparent;
       color: rgba(0, 0, 0, 0.7); }
-      .button.is-info:focus:not(:active), button.is-info.mozhack:focus:not(:active), .button.is-info.is-focused:not(:active), button.is-info.is-focused.mozhack:not(:active) {
+      .button.is-info:focus:not(:active), button.is-info.SacredHacks:focus:not(:active), .button.is-info.is-focused:not(:active), button.is-info.is-focused.SacredHacks:not(:active) {
         box-shadow: 0 0 0 0.125em rgba(101, 221, 228, 0.25); }
-    .button.is-info:active, button.is-info.mozhack:active, .button.is-info.is-active, button.is-info.is-active.mozhack {
+    .button.is-info:active, button.is-info.SacredHacks:active, .button.is-info.is-active, button.is-info.is-active.SacredHacks {
       background-color: #4fd8e0;
       border-color: transparent;
       color: rgba(0, 0, 0, 0.7); }
-    .button.is-info[disabled], button.is-info[disabled].mozhack {
+    .button.is-info[disabled], button.is-info[disabled].SacredHacks {
       background-color: #65dde4;
       border-color: transparent;
       box-shadow: none; }
-    .button.is-info.is-inverted, button.is-info.is-inverted.mozhack {
+    .button.is-info.is-inverted, button.is-info.is-inverted.SacredHacks {
       background-color: rgba(0, 0, 0, 0.7);
       color: #65dde4; }
-      .button.is-info.is-inverted:hover, button.is-info.is-inverted.mozhack:hover {
+      .button.is-info.is-inverted:hover, button.is-info.is-inverted.SacredHacks:hover {
         background-color: rgba(0, 0, 0, 0.7); }
-      .button.is-info.is-inverted[disabled], button.is-info.is-inverted[disabled].mozhack {
+      .button.is-info.is-inverted[disabled], button.is-info.is-inverted[disabled].SacredHacks {
         background-color: rgba(0, 0, 0, 0.7);
         border-color: transparent;
         box-shadow: none;
         color: #65dde4; }
-    .button.is-info.is-loading:after, button.is-info.is-loading.mozhack:after {
+    .button.is-info.is-loading:after, button.is-info.is-loading.SacredHacks:after {
       border-color: transparent transparent rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7) !important; }
-    .button.is-info.is-outlined, button.is-info.is-outlined.mozhack {
+    .button.is-info.is-outlined, button.is-info.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: #65dde4;
       color: #65dde4; }
-      .button.is-info.is-outlined:hover, button.is-info.is-outlined.mozhack:hover, .button.is-info.is-outlined:focus, button.is-info.is-outlined.mozhack:focus {
+      .button.is-info.is-outlined:hover, button.is-info.is-outlined.SacredHacks:hover, .button.is-info.is-outlined:focus, button.is-info.is-outlined.SacredHacks:focus {
         background-color: #65dde4;
         border-color: #65dde4;
         color: rgba(0, 0, 0, 0.7); }
-      .button.is-info.is-outlined.is-loading:after, button.is-info.is-outlined.is-loading.mozhack:after {
+      .button.is-info.is-outlined.is-loading:after, button.is-info.is-outlined.is-loading.SacredHacks:after {
         border-color: transparent transparent #65dde4 #65dde4 !important; }
-      .button.is-info.is-outlined[disabled], button.is-info.is-outlined[disabled].mozhack {
+      .button.is-info.is-outlined[disabled], button.is-info.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: #65dde4;
         box-shadow: none;
         color: #65dde4; }
-    .button.is-info.is-inverted.is-outlined, button.is-info.is-inverted.is-outlined.mozhack {
+    .button.is-info.is-inverted.is-outlined, button.is-info.is-inverted.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: rgba(0, 0, 0, 0.7);
       color: rgba(0, 0, 0, 0.7); }
-      .button.is-info.is-inverted.is-outlined:hover, button.is-info.is-inverted.is-outlined.mozhack:hover, .button.is-info.is-inverted.is-outlined:focus, button.is-info.is-inverted.is-outlined.mozhack:focus {
+      .button.is-info.is-inverted.is-outlined:hover, button.is-info.is-inverted.is-outlined.SacredHacks:hover, .button.is-info.is-inverted.is-outlined:focus, button.is-info.is-inverted.is-outlined.SacredHacks:focus {
         background-color: rgba(0, 0, 0, 0.7);
         color: #65dde4; }
-      .button.is-info.is-inverted.is-outlined[disabled], button.is-info.is-inverted.is-outlined[disabled].mozhack {
+      .button.is-info.is-inverted.is-outlined[disabled], button.is-info.is-inverted.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: rgba(0, 0, 0, 0.7);
         box-shadow: none;
         color: rgba(0, 0, 0, 0.7); }
-  .button.is-success, button.is-success.mozhack, a.is-success.button.mozhack {
+  .button.is-success, button.is-success.SacredHacks, a.is-success.button.SacredHacks {
     background-color: #23d160;
     border-color: transparent;
     color: #fff; }
-    .button.is-success:hover, button.is-success.mozhack:hover, .button.is-success.is-hovered, button.is-success.is-hovered.mozhack {
+    .button.is-success:hover, button.is-success.SacredHacks:hover, .button.is-success.is-hovered, button.is-success.is-hovered.SacredHacks {
       background-color: #22c65b;
       border-color: transparent;
       color: #fff; }
-    .button.is-success:focus, button.is-success.mozhack:focus, .button.is-success.is-focused, button.is-success.is-focused.mozhack {
+    .button.is-success:focus, button.is-success.SacredHacks:focus, .button.is-success.is-focused, button.is-success.is-focused.SacredHacks {
       border-color: transparent;
       color: #fff; }
-      .button.is-success:focus:not(:active), button.is-success.mozhack:focus:not(:active), .button.is-success.is-focused:not(:active), button.is-success.is-focused.mozhack:not(:active) {
+      .button.is-success:focus:not(:active), button.is-success.SacredHacks:focus:not(:active), .button.is-success.is-focused:not(:active), button.is-success.is-focused.SacredHacks:not(:active) {
         box-shadow: 0 0 0 0.125em rgba(35, 209, 96, 0.25); }
-    .button.is-success:active, button.is-success.mozhack:active, .button.is-success.is-active, button.is-success.is-active.mozhack {
+    .button.is-success:active, button.is-success.SacredHacks:active, .button.is-success.is-active, button.is-success.is-active.SacredHacks {
       background-color: #20bc56;
       border-color: transparent;
       color: #fff; }
-    .button.is-success[disabled], button.is-success[disabled].mozhack {
+    .button.is-success[disabled], button.is-success[disabled].SacredHacks {
       background-color: #23d160;
       border-color: transparent;
       box-shadow: none; }
-    .button.is-success.is-inverted, button.is-success.is-inverted.mozhack {
+    .button.is-success.is-inverted, button.is-success.is-inverted.SacredHacks {
       background-color: #fff;
       color: #23d160; }
-      .button.is-success.is-inverted:hover, button.is-success.is-inverted.mozhack:hover {
+      .button.is-success.is-inverted:hover, button.is-success.is-inverted.SacredHacks:hover {
         background-color: #f2f2f2; }
-      .button.is-success.is-inverted[disabled], button.is-success.is-inverted[disabled].mozhack {
+      .button.is-success.is-inverted[disabled], button.is-success.is-inverted[disabled].SacredHacks {
         background-color: #fff;
         border-color: transparent;
         box-shadow: none;
         color: #23d160; }
-    .button.is-success.is-loading:after, button.is-success.is-loading.mozhack:after {
+    .button.is-success.is-loading:after, button.is-success.is-loading.SacredHacks:after {
       border-color: transparent transparent #fff #fff !important; }
-    .button.is-success.is-outlined, button.is-success.is-outlined.mozhack {
+    .button.is-success.is-outlined, button.is-success.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: #23d160;
       color: #23d160; }
-      .button.is-success.is-outlined:hover, button.is-success.is-outlined.mozhack:hover, .button.is-success.is-outlined:focus, button.is-success.is-outlined.mozhack:focus {
+      .button.is-success.is-outlined:hover, button.is-success.is-outlined.SacredHacks:hover, .button.is-success.is-outlined:focus, button.is-success.is-outlined.SacredHacks:focus {
         background-color: #23d160;
         border-color: #23d160;
         color: #fff; }
-      .button.is-success.is-outlined.is-loading:after, button.is-success.is-outlined.is-loading.mozhack:after {
+      .button.is-success.is-outlined.is-loading:after, button.is-success.is-outlined.is-loading.SacredHacks:after {
         border-color: transparent transparent #23d160 #23d160 !important; }
-      .button.is-success.is-outlined[disabled], button.is-success.is-outlined[disabled].mozhack {
+      .button.is-success.is-outlined[disabled], button.is-success.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: #23d160;
         box-shadow: none;
         color: #23d160; }
-    .button.is-success.is-inverted.is-outlined, button.is-success.is-inverted.is-outlined.mozhack {
+    .button.is-success.is-inverted.is-outlined, button.is-success.is-inverted.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: #fff;
       color: #fff; }
-      .button.is-success.is-inverted.is-outlined:hover, button.is-success.is-inverted.is-outlined.mozhack:hover, .button.is-success.is-inverted.is-outlined:focus, button.is-success.is-inverted.is-outlined.mozhack:focus {
+      .button.is-success.is-inverted.is-outlined:hover, button.is-success.is-inverted.is-outlined.SacredHacks:hover, .button.is-success.is-inverted.is-outlined:focus, button.is-success.is-inverted.is-outlined.SacredHacks:focus {
         background-color: #fff;
         color: #23d160; }
-      .button.is-success.is-inverted.is-outlined[disabled], button.is-success.is-inverted.is-outlined[disabled].mozhack {
+      .button.is-success.is-inverted.is-outlined[disabled], button.is-success.is-inverted.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: #fff;
         box-shadow: none;
         color: #fff; }
-  .button.is-warning, button.is-warning.mozhack, a.is-warning.button.mozhack {
+  .button.is-warning, button.is-warning.SacredHacks, a.is-warning.button.SacredHacks {
     background-color: #ffdd57;
     border-color: transparent;
     color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning:hover, button.is-warning.mozhack:hover, .button.is-warning.is-hovered, button.is-warning.is-hovered.mozhack {
+    .button.is-warning:hover, button.is-warning.SacredHacks:hover, .button.is-warning.is-hovered, button.is-warning.is-hovered.SacredHacks {
       background-color: #ffdb4a;
       border-color: transparent;
       color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning:focus, button.is-warning.mozhack:focus, .button.is-warning.is-focused, button.is-warning.is-focused.mozhack {
+    .button.is-warning:focus, button.is-warning.SacredHacks:focus, .button.is-warning.is-focused, button.is-warning.is-focused.SacredHacks {
       border-color: transparent;
       color: rgba(0, 0, 0, 0.7); }
-      .button.is-warning:focus:not(:active), button.is-warning.mozhack:focus:not(:active), .button.is-warning.is-focused:not(:active), button.is-warning.is-focused.mozhack:not(:active) {
+      .button.is-warning:focus:not(:active), button.is-warning.SacredHacks:focus:not(:active), .button.is-warning.is-focused:not(:active), button.is-warning.is-focused.SacredHacks:not(:active) {
         box-shadow: 0 0 0 0.125em rgba(255, 221, 87, 0.25); }
-    .button.is-warning:active, button.is-warning.mozhack:active, .button.is-warning.is-active, button.is-warning.is-active.mozhack {
+    .button.is-warning:active, button.is-warning.SacredHacks:active, .button.is-warning.is-active, button.is-warning.is-active.SacredHacks {
       background-color: #ffd83d;
       border-color: transparent;
       color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning[disabled], button.is-warning[disabled].mozhack {
+    .button.is-warning[disabled], button.is-warning[disabled].SacredHacks {
       background-color: #ffdd57;
       border-color: transparent;
       box-shadow: none; }
-    .button.is-warning.is-inverted, button.is-warning.is-inverted.mozhack {
+    .button.is-warning.is-inverted, button.is-warning.is-inverted.SacredHacks {
       background-color: rgba(0, 0, 0, 0.7);
       color: #ffdd57; }
-      .button.is-warning.is-inverted:hover, button.is-warning.is-inverted.mozhack:hover {
+      .button.is-warning.is-inverted:hover, button.is-warning.is-inverted.SacredHacks:hover {
         background-color: rgba(0, 0, 0, 0.7); }
-      .button.is-warning.is-inverted[disabled], button.is-warning.is-inverted[disabled].mozhack {
+      .button.is-warning.is-inverted[disabled], button.is-warning.is-inverted[disabled].SacredHacks {
         background-color: rgba(0, 0, 0, 0.7);
         border-color: transparent;
         box-shadow: none;
         color: #ffdd57; }
-    .button.is-warning.is-loading:after, button.is-warning.is-loading.mozhack:after {
+    .button.is-warning.is-loading:after, button.is-warning.is-loading.SacredHacks:after {
       border-color: transparent transparent rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7) !important; }
-    .button.is-warning.is-outlined, button.is-warning.is-outlined.mozhack {
+    .button.is-warning.is-outlined, button.is-warning.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: #ffdd57;
       color: #ffdd57; }
-      .button.is-warning.is-outlined:hover, button.is-warning.is-outlined.mozhack:hover, .button.is-warning.is-outlined:focus, button.is-warning.is-outlined.mozhack:focus {
+      .button.is-warning.is-outlined:hover, button.is-warning.is-outlined.SacredHacks:hover, .button.is-warning.is-outlined:focus, button.is-warning.is-outlined.SacredHacks:focus {
         background-color: #ffdd57;
         border-color: #ffdd57;
         color: rgba(0, 0, 0, 0.7); }
-      .button.is-warning.is-outlined.is-loading:after, button.is-warning.is-outlined.is-loading.mozhack:after {
+      .button.is-warning.is-outlined.is-loading:after, button.is-warning.is-outlined.is-loading.SacredHacks:after {
         border-color: transparent transparent #ffdd57 #ffdd57 !important; }
-      .button.is-warning.is-outlined[disabled], button.is-warning.is-outlined[disabled].mozhack {
+      .button.is-warning.is-outlined[disabled], button.is-warning.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: #ffdd57;
         box-shadow: none;
         color: #ffdd57; }
-    .button.is-warning.is-inverted.is-outlined, button.is-warning.is-inverted.is-outlined.mozhack {
+    .button.is-warning.is-inverted.is-outlined, button.is-warning.is-inverted.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: rgba(0, 0, 0, 0.7);
       color: rgba(0, 0, 0, 0.7); }
-      .button.is-warning.is-inverted.is-outlined:hover, button.is-warning.is-inverted.is-outlined.mozhack:hover, .button.is-warning.is-inverted.is-outlined:focus, button.is-warning.is-inverted.is-outlined.mozhack:focus {
+      .button.is-warning.is-inverted.is-outlined:hover, button.is-warning.is-inverted.is-outlined.SacredHacks:hover, .button.is-warning.is-inverted.is-outlined:focus, button.is-warning.is-inverted.is-outlined.SacredHacks:focus {
         background-color: rgba(0, 0, 0, 0.7);
         color: #ffdd57; }
-      .button.is-warning.is-inverted.is-outlined[disabled], button.is-warning.is-inverted.is-outlined[disabled].mozhack {
+      .button.is-warning.is-inverted.is-outlined[disabled], button.is-warning.is-inverted.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: rgba(0, 0, 0, 0.7);
         box-shadow: none;
         color: rgba(0, 0, 0, 0.7); }
-  .button.is-danger, button.is-danger.mozhack, a.is-danger.button.mozhack {
+  .button.is-danger, button.is-danger.SacredHacks, a.is-danger.button.SacredHacks {
     background-color: #ef6c67;
     border-color: transparent;
     color: #fff; }
-    .button.is-danger:hover, button.is-danger.mozhack:hover, .button.is-danger.is-hovered, button.is-danger.is-hovered.mozhack {
+    .button.is-danger:hover, button.is-danger.SacredHacks:hover, .button.is-danger.is-hovered, button.is-danger.is-hovered.SacredHacks {
       background-color: #ee615b;
       border-color: transparent;
       color: #fff; }
-    .button.is-danger:focus, button.is-danger.mozhack:focus, .button.is-danger.is-focused, button.is-danger.is-focused.mozhack {
+    .button.is-danger:focus, button.is-danger.SacredHacks:focus, .button.is-danger.is-focused, button.is-danger.is-focused.SacredHacks {
       border-color: transparent;
       color: #fff; }
-      .button.is-danger:focus:not(:active), button.is-danger.mozhack:focus:not(:active), .button.is-danger.is-focused:not(:active), button.is-danger.is-focused.mozhack:not(:active) {
+      .button.is-danger:focus:not(:active), button.is-danger.SacredHacks:focus:not(:active), .button.is-danger.is-focused:not(:active), button.is-danger.is-focused.SacredHacks:not(:active) {
         box-shadow: 0 0 0 0.125em rgba(239, 108, 103, 0.25); }
-    .button.is-danger:active, button.is-danger.mozhack:active, .button.is-danger.is-active, button.is-danger.is-active.mozhack {
+    .button.is-danger:active, button.is-danger.SacredHacks:active, .button.is-danger.is-active, button.is-danger.is-active.SacredHacks {
       background-color: #ed5650;
       border-color: transparent;
       color: #fff; }
-    .button.is-danger[disabled], button.is-danger[disabled].mozhack {
+    .button.is-danger[disabled], button.is-danger[disabled].SacredHacks {
       background-color: #ef6c67;
       border-color: transparent;
       box-shadow: none; }
-    .button.is-danger.is-inverted, button.is-danger.is-inverted.mozhack {
+    .button.is-danger.is-inverted, button.is-danger.is-inverted.SacredHacks {
       background-color: #fff;
       color: #ef6c67; }
-      .button.is-danger.is-inverted:hover, button.is-danger.is-inverted.mozhack:hover {
+      .button.is-danger.is-inverted:hover, button.is-danger.is-inverted.SacredHacks:hover {
         background-color: #f2f2f2; }
-      .button.is-danger.is-inverted[disabled], button.is-danger.is-inverted[disabled].mozhack {
+      .button.is-danger.is-inverted[disabled], button.is-danger.is-inverted[disabled].SacredHacks {
         background-color: #fff;
         border-color: transparent;
         box-shadow: none;
         color: #ef6c67; }
-    .button.is-danger.is-loading:after, button.is-danger.is-loading.mozhack:after {
+    .button.is-danger.is-loading:after, button.is-danger.is-loading.SacredHacks:after {
       border-color: transparent transparent #fff #fff !important; }
-    .button.is-danger.is-outlined, button.is-danger.is-outlined.mozhack {
+    .button.is-danger.is-outlined, button.is-danger.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: #ef6c67;
       color: #ef6c67; }
-      .button.is-danger.is-outlined:hover, button.is-danger.is-outlined.mozhack:hover, .button.is-danger.is-outlined:focus, button.is-danger.is-outlined.mozhack:focus {
+      .button.is-danger.is-outlined:hover, button.is-danger.is-outlined.SacredHacks:hover, .button.is-danger.is-outlined:focus, button.is-danger.is-outlined.SacredHacks:focus {
         background-color: #ef6c67;
         border-color: #ef6c67;
         color: #fff; }
-      .button.is-danger.is-outlined.is-loading:after, button.is-danger.is-outlined.is-loading.mozhack:after {
+      .button.is-danger.is-outlined.is-loading:after, button.is-danger.is-outlined.is-loading.SacredHacks:after {
         border-color: transparent transparent #ef6c67 #ef6c67 !important; }
-      .button.is-danger.is-outlined[disabled], button.is-danger.is-outlined[disabled].mozhack {
+      .button.is-danger.is-outlined[disabled], button.is-danger.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: #ef6c67;
         box-shadow: none;
         color: #ef6c67; }
-    .button.is-danger.is-inverted.is-outlined, button.is-danger.is-inverted.is-outlined.mozhack {
+    .button.is-danger.is-inverted.is-outlined, button.is-danger.is-inverted.is-outlined.SacredHacks {
       background-color: transparent;
       border-color: #fff;
       color: #fff; }
-      .button.is-danger.is-inverted.is-outlined:hover, button.is-danger.is-inverted.is-outlined.mozhack:hover, .button.is-danger.is-inverted.is-outlined:focus, button.is-danger.is-inverted.is-outlined.mozhack:focus {
+      .button.is-danger.is-inverted.is-outlined:hover, button.is-danger.is-inverted.is-outlined.SacredHacks:hover, .button.is-danger.is-inverted.is-outlined:focus, button.is-danger.is-inverted.is-outlined.SacredHacks:focus {
         background-color: #fff;
         color: #ef6c67; }
-      .button.is-danger.is-inverted.is-outlined[disabled], button.is-danger.is-inverted.is-outlined[disabled].mozhack {
+      .button.is-danger.is-inverted.is-outlined[disabled], button.is-danger.is-inverted.is-outlined[disabled].SacredHacks {
         background-color: transparent;
         border-color: #fff;
         box-shadow: none;
         color: #fff; }
-  .button.is-small, button.is-small.mozhack, a.is-small.button.mozhack {
+  .button.is-small, button.is-small.SacredHacks, a.is-small.button.SacredHacks {
     border-radius: 2px;
     font-size: 0.75rem; }
-  .button.is-medium, button.is-medium.mozhack, a.is-medium.button.mozhack {
+  .button.is-medium, button.is-medium.SacredHacks, a.is-medium.button.SacredHacks {
     font-size: 1.25rem; }
-  .button.is-large, button.is-large.mozhack, a.is-large.button.mozhack {
+  .button.is-large, button.is-large.SacredHacks, a.is-large.button.SacredHacks {
     font-size: 1.5rem; }
-  .button[disabled], button[disabled].mozhack, a[disabled].button.mozhack {
+  .button[disabled], button[disabled].SacredHacks, a[disabled].button.SacredHacks {
     background-color: white;
     border-color: #dbdbdb;
     box-shadow: none;
     opacity: 0.5; }
-  .button.is-fullwidth, button.is-fullwidth.mozhack, a.is-fullwidth.button.mozhack {
+  .button.is-fullwidth, button.is-fullwidth.SacredHacks, a.is-fullwidth.button.SacredHacks {
     display: flex;
     width: 100%; }
-  .button.is-loading, button.is-loading.mozhack, a.is-loading.button.mozhack {
+  .button.is-loading, button.is-loading.SacredHacks, a.is-loading.button.SacredHacks {
     color: transparent !important;
     pointer-events: none; }
-    .button.is-loading:after, button.is-loading.mozhack:after {
+    .button.is-loading:after, button.is-loading.SacredHacks:after {
       animation: spinAround 500ms infinite linear;
       border: 2px solid #dbdbdb;
       border-radius: 290486px;
@@ -1603,13 +1603,13 @@ a.box:active {
       left: calc(50% - (1em / 2));
       top: calc(50% - (1em / 2));
       position: absolute !important; }
-  .button.is-static, button.is-static.mozhack, a.is-static.button.mozhack {
+  .button.is-static, button.is-static.SacredHacks, a.is-static.button.SacredHacks {
     background-color: whitesmoke;
     border-color: #dbdbdb;
     color: #7a7a7a;
     box-shadow: none;
     pointer-events: none; }
-  .button.is-rounded, button.mozhack, a.mozhack.button, input.button.mozhack {
+  .button.is-rounded, button.SacredHacks, a.SacredHacks.button, input.button.SacredHacks {
     border-radius: 290486px;
     padding-left: 1em;
     padding-right: 1em; }
@@ -1619,28 +1619,28 @@ a.box:active {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start; }
-  .buttons .button, .buttons button.mozhack, .buttons a.button.mozhack {
+  .buttons .button, .buttons button.SacredHacks, .buttons a.button.SacredHacks {
     margin-bottom: 0.5rem; }
-    .buttons .button:not(:last-child), .buttons button.mozhack:not(:last-child) {
+    .buttons .button:not(:last-child), .buttons button.SacredHacks:not(:last-child) {
       margin-right: 0.5rem; }
   .buttons:last-child {
     margin-bottom: -0.5rem; }
   .buttons:not(:last-child) {
     margin-bottom: 1rem; }
-  .buttons.has-addons .button:not(:first-child), .buttons.has-addons button.mozhack:not(:first-child) {
+  .buttons.has-addons .button:not(:first-child), .buttons.has-addons button.SacredHacks:not(:first-child) {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0; }
-  .buttons.has-addons .button:not(:last-child), .buttons.has-addons button.mozhack:not(:last-child) {
+  .buttons.has-addons .button:not(:last-child), .buttons.has-addons button.SacredHacks:not(:last-child) {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
     margin-right: -1px; }
-  .buttons.has-addons .button:last-child, .buttons.has-addons button.mozhack:last-child {
+  .buttons.has-addons .button:last-child, .buttons.has-addons button.SacredHacks:last-child {
     margin-right: 0; }
-  .buttons.has-addons .button:hover, .buttons.has-addons button.mozhack:hover, .buttons.has-addons .button.is-hovered, .buttons.has-addons button.is-hovered.mozhack {
+  .buttons.has-addons .button:hover, .buttons.has-addons button.SacredHacks:hover, .buttons.has-addons .button.is-hovered, .buttons.has-addons button.is-hovered.SacredHacks {
     z-index: 2; }
-  .buttons.has-addons .button:focus, .buttons.has-addons button.mozhack:focus, .buttons.has-addons .button.is-focused, .buttons.has-addons button.is-focused.mozhack, .buttons.has-addons .button:active, .buttons.has-addons button.mozhack:active, .buttons.has-addons .button.is-active, .buttons.has-addons button.is-active.mozhack, .buttons.has-addons .button.is-selected, .buttons.has-addons button.is-selected.mozhack {
+  .buttons.has-addons .button:focus, .buttons.has-addons button.SacredHacks:focus, .buttons.has-addons .button.is-focused, .buttons.has-addons button.is-focused.SacredHacks, .buttons.has-addons .button:active, .buttons.has-addons button.SacredHacks:active, .buttons.has-addons .button.is-active, .buttons.has-addons button.is-active.SacredHacks, .buttons.has-addons .button.is-selected, .buttons.has-addons button.is-selected.SacredHacks {
     z-index: 3; }
-    .buttons.has-addons .button:focus:hover, .buttons.has-addons button.mozhack:focus:hover, .buttons.has-addons .button.is-focused:hover, .buttons.has-addons button.is-focused.mozhack:hover, .buttons.has-addons .button:active:hover, .buttons.has-addons button.mozhack:active:hover, .buttons.has-addons .button.is-active:hover, .buttons.has-addons button.is-active.mozhack:hover, .buttons.has-addons .button.is-selected:hover, .buttons.has-addons button.is-selected.mozhack:hover {
+    .buttons.has-addons .button:focus:hover, .buttons.has-addons button.SacredHacks:focus:hover, .buttons.has-addons .button.is-focused:hover, .buttons.has-addons button.is-focused.SacredHacks:hover, .buttons.has-addons .button:active:hover, .buttons.has-addons button.SacredHacks:active:hover, .buttons.has-addons .button.is-active:hover, .buttons.has-addons button.is-active.SacredHacks:hover, .buttons.has-addons .button.is-selected:hover, .buttons.has-addons button.is-selected.SacredHacks:hover {
       z-index: 4; }
   .buttons.is-centered {
     justify-content: center; }
@@ -1812,7 +1812,7 @@ a.box:active {
 .content.is-large {
   font-size: 1.5rem; }
 
-.input, input.mozhack,
+.input, input.SacredHacks,
 .textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -1837,174 +1837,174 @@ a.box:active {
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   max-width: 100%;
   width: 100%; }
-  .input:focus, input.mozhack:focus, .input.is-focused, input.is-focused.mozhack, .input:active, input.mozhack:active, .input.is-active, input.is-active.mozhack,
+  .input:focus, input.SacredHacks:focus, .input.is-focused, input.is-focused.SacredHacks, .input:active, input.SacredHacks:active, .input.is-active, input.is-active.SacredHacks,
   .textarea:focus,
   .textarea.is-focused,
   .textarea:active,
   .textarea.is-active {
     outline: none; }
-  .input[disabled], input[disabled].mozhack,
+  .input[disabled], input[disabled].SacredHacks,
   .textarea[disabled] {
     cursor: not-allowed; }
-  .input::-moz-placeholder, input.mozhack::-moz-placeholder,
+  .input::-moz-placeholder, input.SacredHacks::-moz-placeholder,
   .textarea::-moz-placeholder {
     color: rgba(54, 54, 54, 0.3); }
-  .input::-webkit-input-placeholder, input.mozhack::-webkit-input-placeholder,
+  .input::-webkit-input-placeholder, input.SacredHacks::-webkit-input-placeholder,
   .textarea::-webkit-input-placeholder {
     color: rgba(54, 54, 54, 0.3); }
-  .input:-moz-placeholder, input.mozhack:-moz-placeholder,
+  .input:-moz-placeholder, input.SacredHacks:-moz-placeholder,
   .textarea:-moz-placeholder {
     color: rgba(54, 54, 54, 0.3); }
-  .input:-ms-input-placeholder, input.mozhack:-ms-input-placeholder,
+  .input:-ms-input-placeholder, input.SacredHacks:-ms-input-placeholder,
   .textarea:-ms-input-placeholder {
     color: rgba(54, 54, 54, 0.3); }
-  .input:hover, input.mozhack:hover, .input.is-hovered, input.is-hovered.mozhack,
+  .input:hover, input.SacredHacks:hover, .input.is-hovered, input.is-hovered.SacredHacks,
   .textarea:hover,
   .textarea.is-hovered {
     border-color: #b5b5b5; }
-  .input:focus, input.mozhack:focus, .input.is-focused, input.is-focused.mozhack, .input:active, input.mozhack:active, .input.is-active, input.is-active.mozhack,
+  .input:focus, input.SacredHacks:focus, .input.is-focused, input.is-focused.SacredHacks, .input:active, input.SacredHacks:active, .input.is-active, input.is-active.SacredHacks,
   .textarea:focus,
   .textarea.is-focused,
   .textarea:active,
   .textarea.is-active {
     border-color: #3273dc;
     box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25); }
-  .input[disabled], input[disabled].mozhack,
+  .input[disabled], input[disabled].SacredHacks,
   .textarea[disabled] {
     background-color: whitesmoke;
     border-color: whitesmoke;
     box-shadow: none;
     color: #7a7a7a; }
-    .input[disabled]::-moz-placeholder, input[disabled].mozhack::-moz-placeholder,
+    .input[disabled]::-moz-placeholder, input[disabled].SacredHacks::-moz-placeholder,
     .textarea[disabled]::-moz-placeholder {
       color: rgba(122, 122, 122, 0.3); }
-    .input[disabled]::-webkit-input-placeholder, input[disabled].mozhack::-webkit-input-placeholder,
+    .input[disabled]::-webkit-input-placeholder, input[disabled].SacredHacks::-webkit-input-placeholder,
     .textarea[disabled]::-webkit-input-placeholder {
       color: rgba(122, 122, 122, 0.3); }
-    .input[disabled]:-moz-placeholder, input[disabled].mozhack:-moz-placeholder,
+    .input[disabled]:-moz-placeholder, input[disabled].SacredHacks:-moz-placeholder,
     .textarea[disabled]:-moz-placeholder {
       color: rgba(122, 122, 122, 0.3); }
-    .input[disabled]:-ms-input-placeholder, input[disabled].mozhack:-ms-input-placeholder,
+    .input[disabled]:-ms-input-placeholder, input[disabled].SacredHacks:-ms-input-placeholder,
     .textarea[disabled]:-ms-input-placeholder {
       color: rgba(122, 122, 122, 0.3); }
-  .input[readonly], input[readonly].mozhack,
+  .input[readonly], input[readonly].SacredHacks,
   .textarea[readonly] {
     box-shadow: none; }
-  .input.is-white, input.is-white.mozhack,
+  .input.is-white, input.is-white.SacredHacks,
   .textarea.is-white {
     border-color: white; }
-    .input.is-white:focus, input.is-white.mozhack:focus, .input.is-white.is-focused, input.is-white.is-focused.mozhack, .input.is-white:active, input.is-white.mozhack:active, .input.is-white.is-active, input.is-white.is-active.mozhack,
+    .input.is-white:focus, input.is-white.SacredHacks:focus, .input.is-white.is-focused, input.is-white.is-focused.SacredHacks, .input.is-white:active, input.is-white.SacredHacks:active, .input.is-white.is-active, input.is-white.is-active.SacredHacks,
     .textarea.is-white:focus,
     .textarea.is-white.is-focused,
     .textarea.is-white:active,
     .textarea.is-white.is-active {
       box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25); }
-  .input.is-black, input.is-black.mozhack,
+  .input.is-black, input.is-black.SacredHacks,
   .textarea.is-black {
     border-color: #0a0a0a; }
-    .input.is-black:focus, input.is-black.mozhack:focus, .input.is-black.is-focused, input.is-black.is-focused.mozhack, .input.is-black:active, input.is-black.mozhack:active, .input.is-black.is-active, input.is-black.is-active.mozhack,
+    .input.is-black:focus, input.is-black.SacredHacks:focus, .input.is-black.is-focused, input.is-black.is-focused.SacredHacks, .input.is-black:active, input.is-black.SacredHacks:active, .input.is-black.is-active, input.is-black.is-active.SacredHacks,
     .textarea.is-black:focus,
     .textarea.is-black.is-focused,
     .textarea.is-black:active,
     .textarea.is-black.is-active {
       box-shadow: 0 0 0 0.125em rgba(10, 10, 10, 0.25); }
-  .input.is-light, input.is-light.mozhack,
+  .input.is-light, input.is-light.SacredHacks,
   .textarea.is-light {
     border-color: whitesmoke; }
-    .input.is-light:focus, input.is-light.mozhack:focus, .input.is-light.is-focused, input.is-light.is-focused.mozhack, .input.is-light:active, input.is-light.mozhack:active, .input.is-light.is-active, input.is-light.is-active.mozhack,
+    .input.is-light:focus, input.is-light.SacredHacks:focus, .input.is-light.is-focused, input.is-light.is-focused.SacredHacks, .input.is-light:active, input.is-light.SacredHacks:active, .input.is-light.is-active, input.is-light.is-active.SacredHacks,
     .textarea.is-light:focus,
     .textarea.is-light.is-focused,
     .textarea.is-light:active,
     .textarea.is-light.is-active {
       box-shadow: 0 0 0 0.125em rgba(245, 245, 245, 0.25); }
-  .input.is-dark, input.is-dark.mozhack,
+  .input.is-dark, input.is-dark.SacredHacks,
   .textarea.is-dark {
     border-color: #363636; }
-    .input.is-dark:focus, input.is-dark.mozhack:focus, .input.is-dark.is-focused, input.is-dark.is-focused.mozhack, .input.is-dark:active, input.is-dark.mozhack:active, .input.is-dark.is-active, input.is-dark.is-active.mozhack,
+    .input.is-dark:focus, input.is-dark.SacredHacks:focus, .input.is-dark.is-focused, input.is-dark.is-focused.SacredHacks, .input.is-dark:active, input.is-dark.SacredHacks:active, .input.is-dark.is-active, input.is-dark.is-active.SacredHacks,
     .textarea.is-dark:focus,
     .textarea.is-dark.is-focused,
     .textarea.is-dark:active,
     .textarea.is-dark.is-active {
       box-shadow: 0 0 0 0.125em rgba(54, 54, 54, 0.25); }
-  .input.is-primary, input.is-primary.mozhack,
+  .input.is-primary, input.is-primary.SacredHacks,
   .textarea.is-primary {
     border-color: #ED76CB; }
-    .input.is-primary:focus, input.is-primary.mozhack:focus, .input.is-primary.is-focused, input.is-primary.is-focused.mozhack, .input.is-primary:active, input.is-primary.mozhack:active, .input.is-primary.is-active, input.is-primary.is-active.mozhack,
+    .input.is-primary:focus, input.is-primary.SacredHacks:focus, .input.is-primary.is-focused, input.is-primary.is-focused.SacredHacks, .input.is-primary:active, input.is-primary.SacredHacks:active, .input.is-primary.is-active, input.is-primary.is-active.SacredHacks,
     .textarea.is-primary:focus,
     .textarea.is-primary.is-focused,
     .textarea.is-primary:active,
     .textarea.is-primary.is-active {
       box-shadow: 0 0 0 0.125em rgba(237, 118, 203, 0.25); }
-  .input.is-link, input.is-link.mozhack,
+  .input.is-link, input.is-link.SacredHacks,
   .textarea.is-link {
     border-color: #3273dc; }
-    .input.is-link:focus, input.is-link.mozhack:focus, .input.is-link.is-focused, input.is-link.is-focused.mozhack, .input.is-link:active, input.is-link.mozhack:active, .input.is-link.is-active, input.is-link.is-active.mozhack,
+    .input.is-link:focus, input.is-link.SacredHacks:focus, .input.is-link.is-focused, input.is-link.is-focused.SacredHacks, .input.is-link:active, input.is-link.SacredHacks:active, .input.is-link.is-active, input.is-link.is-active.SacredHacks,
     .textarea.is-link:focus,
     .textarea.is-link.is-focused,
     .textarea.is-link:active,
     .textarea.is-link.is-active {
       box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25); }
-  .input.is-info, input.is-info.mozhack,
+  .input.is-info, input.is-info.SacredHacks,
   .textarea.is-info {
     border-color: #65dde4; }
-    .input.is-info:focus, input.is-info.mozhack:focus, .input.is-info.is-focused, input.is-info.is-focused.mozhack, .input.is-info:active, input.is-info.mozhack:active, .input.is-info.is-active, input.is-info.is-active.mozhack,
+    .input.is-info:focus, input.is-info.SacredHacks:focus, .input.is-info.is-focused, input.is-info.is-focused.SacredHacks, .input.is-info:active, input.is-info.SacredHacks:active, .input.is-info.is-active, input.is-info.is-active.SacredHacks,
     .textarea.is-info:focus,
     .textarea.is-info.is-focused,
     .textarea.is-info:active,
     .textarea.is-info.is-active {
       box-shadow: 0 0 0 0.125em rgba(101, 221, 228, 0.25); }
-  .input.is-success, input.is-success.mozhack,
+  .input.is-success, input.is-success.SacredHacks,
   .textarea.is-success {
     border-color: #23d160; }
-    .input.is-success:focus, input.is-success.mozhack:focus, .input.is-success.is-focused, input.is-success.is-focused.mozhack, .input.is-success:active, input.is-success.mozhack:active, .input.is-success.is-active, input.is-success.is-active.mozhack,
+    .input.is-success:focus, input.is-success.SacredHacks:focus, .input.is-success.is-focused, input.is-success.is-focused.SacredHacks, .input.is-success:active, input.is-success.SacredHacks:active, .input.is-success.is-active, input.is-success.is-active.SacredHacks,
     .textarea.is-success:focus,
     .textarea.is-success.is-focused,
     .textarea.is-success:active,
     .textarea.is-success.is-active {
       box-shadow: 0 0 0 0.125em rgba(35, 209, 96, 0.25); }
-  .input.is-warning, input.is-warning.mozhack,
+  .input.is-warning, input.is-warning.SacredHacks,
   .textarea.is-warning {
     border-color: #ffdd57; }
-    .input.is-warning:focus, input.is-warning.mozhack:focus, .input.is-warning.is-focused, input.is-warning.is-focused.mozhack, .input.is-warning:active, input.is-warning.mozhack:active, .input.is-warning.is-active, input.is-warning.is-active.mozhack,
+    .input.is-warning:focus, input.is-warning.SacredHacks:focus, .input.is-warning.is-focused, input.is-warning.is-focused.SacredHacks, .input.is-warning:active, input.is-warning.SacredHacks:active, .input.is-warning.is-active, input.is-warning.is-active.SacredHacks,
     .textarea.is-warning:focus,
     .textarea.is-warning.is-focused,
     .textarea.is-warning:active,
     .textarea.is-warning.is-active {
       box-shadow: 0 0 0 0.125em rgba(255, 221, 87, 0.25); }
-  .input.is-danger, input.is-danger.mozhack,
+  .input.is-danger, input.is-danger.SacredHacks,
   .textarea.is-danger {
     border-color: #ef6c67; }
-    .input.is-danger:focus, input.is-danger.mozhack:focus, .input.is-danger.is-focused, input.is-danger.is-focused.mozhack, .input.is-danger:active, input.is-danger.mozhack:active, .input.is-danger.is-active, input.is-danger.is-active.mozhack,
+    .input.is-danger:focus, input.is-danger.SacredHacks:focus, .input.is-danger.is-focused, input.is-danger.is-focused.SacredHacks, .input.is-danger:active, input.is-danger.SacredHacks:active, .input.is-danger.is-active, input.is-danger.is-active.SacredHacks,
     .textarea.is-danger:focus,
     .textarea.is-danger.is-focused,
     .textarea.is-danger:active,
     .textarea.is-danger.is-active {
       box-shadow: 0 0 0 0.125em rgba(239, 108, 103, 0.25); }
-  .input.is-small, input.is-small.mozhack,
+  .input.is-small, input.is-small.SacredHacks,
   .textarea.is-small {
     border-radius: 2px;
     font-size: 0.75rem; }
-  .input.is-medium, input.is-medium.mozhack,
+  .input.is-medium, input.is-medium.SacredHacks,
   .textarea.is-medium {
     font-size: 1.25rem; }
-  .input.is-large, input.is-large.mozhack,
+  .input.is-large, input.is-large.SacredHacks,
   .textarea.is-large {
     font-size: 1.5rem; }
-  .input.is-fullwidth, input.is-fullwidth.mozhack,
+  .input.is-fullwidth, input.is-fullwidth.SacredHacks,
   .textarea.is-fullwidth {
     display: block;
     width: 100%; }
-  .input.is-inline, input.is-inline.mozhack,
+  .input.is-inline, input.is-inline.SacredHacks,
   .textarea.is-inline {
     display: inline;
     width: auto; }
 
-.input.is-rounded, button.input.mozhack, a.input.mozhack.button, input.mozhack {
+.input.is-rounded, button.input.SacredHacks, a.input.SacredHacks.button, input.SacredHacks {
   border-radius: 290486px;
   padding-left: 1em;
   padding-right: 1em; }
 
-.input.is-static, input.is-static.mozhack {
+.input.is-static, input.is-static.SacredHacks {
   background-color: transparent;
   border-color: transparent;
   box-shadow: none;
@@ -2068,7 +2068,7 @@ a.box:active {
       right: 1.125em;
       top: 50%;
       z-index: 4; }
-  .select.is-rounded select, button.select.mozhack select, a.select.mozhack.button select, input.select.mozhack select {
+  .select.is-rounded select, button.select.SacredHacks select, a.select.SacredHacks.button select, input.select.SacredHacks select {
     border-radius: 290486px;
     padding-left: 1em; }
   .select select {
@@ -2578,54 +2578,54 @@ a.box:active {
   justify-content: flex-start; }
   .field.has-addons .control:not(:last-child) {
     margin-right: -1px; }
-  .field.has-addons .control:not(:first-child):not(:last-child) .button, .field.has-addons .control:not(:first-child):not(:last-child) button.mozhack,
+  .field.has-addons .control:not(:first-child):not(:last-child) .button, .field.has-addons .control:not(:first-child):not(:last-child) button.SacredHacks,
   .field.has-addons .control:not(:first-child):not(:last-child) .input,
-  .field.has-addons .control:not(:first-child):not(:last-child) input.mozhack,
+  .field.has-addons .control:not(:first-child):not(:last-child) input.SacredHacks,
   .field.has-addons .control:not(:first-child):not(:last-child) .select select {
     border-radius: 0; }
-  .field.has-addons .control:first-child .button, .field.has-addons .control:first-child button.mozhack,
+  .field.has-addons .control:first-child .button, .field.has-addons .control:first-child button.SacredHacks,
   .field.has-addons .control:first-child .input,
-  .field.has-addons .control:first-child input.mozhack,
+  .field.has-addons .control:first-child input.SacredHacks,
   .field.has-addons .control:first-child .select select {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0; }
-  .field.has-addons .control:last-child .button, .field.has-addons .control:last-child button.mozhack,
+  .field.has-addons .control:last-child .button, .field.has-addons .control:last-child button.SacredHacks,
   .field.has-addons .control:last-child .input,
-  .field.has-addons .control:last-child input.mozhack,
+  .field.has-addons .control:last-child input.SacredHacks,
   .field.has-addons .control:last-child .select select {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0; }
-  .field.has-addons .control .button:hover, .field.has-addons .control button.mozhack:hover, .field.has-addons .control .button.is-hovered, .field.has-addons .control button.is-hovered.mozhack,
+  .field.has-addons .control .button:hover, .field.has-addons .control button.SacredHacks:hover, .field.has-addons .control .button.is-hovered, .field.has-addons .control button.is-hovered.SacredHacks,
   .field.has-addons .control .input:hover,
-  .field.has-addons .control input.mozhack:hover,
+  .field.has-addons .control input.SacredHacks:hover,
   .field.has-addons .control .input.is-hovered,
-  .field.has-addons .control input.is-hovered.mozhack,
+  .field.has-addons .control input.is-hovered.SacredHacks,
   .field.has-addons .control .select select:hover,
   .field.has-addons .control .select select.is-hovered {
     z-index: 2; }
-  .field.has-addons .control .button:focus, .field.has-addons .control button.mozhack:focus, .field.has-addons .control .button.is-focused, .field.has-addons .control button.is-focused.mozhack, .field.has-addons .control .button:active, .field.has-addons .control button.mozhack:active, .field.has-addons .control .button.is-active, .field.has-addons .control button.is-active.mozhack,
+  .field.has-addons .control .button:focus, .field.has-addons .control button.SacredHacks:focus, .field.has-addons .control .button.is-focused, .field.has-addons .control button.is-focused.SacredHacks, .field.has-addons .control .button:active, .field.has-addons .control button.SacredHacks:active, .field.has-addons .control .button.is-active, .field.has-addons .control button.is-active.SacredHacks,
   .field.has-addons .control .input:focus,
-  .field.has-addons .control input.mozhack:focus,
+  .field.has-addons .control input.SacredHacks:focus,
   .field.has-addons .control .input.is-focused,
-  .field.has-addons .control input.is-focused.mozhack,
+  .field.has-addons .control input.is-focused.SacredHacks,
   .field.has-addons .control .input:active,
-  .field.has-addons .control input.mozhack:active,
+  .field.has-addons .control input.SacredHacks:active,
   .field.has-addons .control .input.is-active,
-  .field.has-addons .control input.is-active.mozhack,
+  .field.has-addons .control input.is-active.SacredHacks,
   .field.has-addons .control .select select:focus,
   .field.has-addons .control .select select.is-focused,
   .field.has-addons .control .select select:active,
   .field.has-addons .control .select select.is-active {
     z-index: 3; }
-    .field.has-addons .control .button:focus:hover, .field.has-addons .control button.mozhack:focus:hover, .field.has-addons .control .button.is-focused:hover, .field.has-addons .control button.is-focused.mozhack:hover, .field.has-addons .control .button:active:hover, .field.has-addons .control button.mozhack:active:hover, .field.has-addons .control .button.is-active:hover, .field.has-addons .control button.is-active.mozhack:hover,
+    .field.has-addons .control .button:focus:hover, .field.has-addons .control button.SacredHacks:focus:hover, .field.has-addons .control .button.is-focused:hover, .field.has-addons .control button.is-focused.SacredHacks:hover, .field.has-addons .control .button:active:hover, .field.has-addons .control button.SacredHacks:active:hover, .field.has-addons .control .button.is-active:hover, .field.has-addons .control button.is-active.SacredHacks:hover,
     .field.has-addons .control .input:focus:hover,
-    .field.has-addons .control input.mozhack:focus:hover,
+    .field.has-addons .control input.SacredHacks:focus:hover,
     .field.has-addons .control .input.is-focused:hover,
-    .field.has-addons .control input.is-focused.mozhack:hover,
+    .field.has-addons .control input.is-focused.SacredHacks:hover,
     .field.has-addons .control .input:active:hover,
-    .field.has-addons .control input.mozhack:active:hover,
+    .field.has-addons .control input.SacredHacks:active:hover,
     .field.has-addons .control .input.is-active:hover,
-    .field.has-addons .control input.is-active.mozhack:hover,
+    .field.has-addons .control input.is-active.SacredHacks:hover,
     .field.has-addons .control .select select:focus:hover,
     .field.has-addons .control .select select.is-focused:hover,
     .field.has-addons .control .select select:active:hover,
@@ -2725,36 +2725,36 @@ a.box:active {
     top: 0;
     width: 2.25em;
     z-index: 4; }
-  .control.has-icon .input:focus + .icon, .control.has-icon input.mozhack:focus + .icon {
+  .control.has-icon .input:focus + .icon, .control.has-icon input.SacredHacks:focus + .icon {
     color: #7a7a7a; }
-  .control.has-icon .input.is-small + .icon, .control.has-icon input.is-small.mozhack + .icon {
+  .control.has-icon .input.is-small + .icon, .control.has-icon input.is-small.SacredHacks + .icon {
     font-size: 0.75rem; }
-  .control.has-icon .input.is-medium + .icon, .control.has-icon input.is-medium.mozhack + .icon {
+  .control.has-icon .input.is-medium + .icon, .control.has-icon input.is-medium.SacredHacks + .icon {
     font-size: 1.25rem; }
-  .control.has-icon .input.is-large + .icon, .control.has-icon input.is-large.mozhack + .icon {
+  .control.has-icon .input.is-large + .icon, .control.has-icon input.is-large.SacredHacks + .icon {
     font-size: 1.5rem; }
   .control.has-icon:not(.has-icon-right) .icon {
     left: 0; }
-  .control.has-icon:not(.has-icon-right) .input, .control.has-icon:not(.has-icon-right) input.mozhack {
+  .control.has-icon:not(.has-icon-right) .input, .control.has-icon:not(.has-icon-right) input.SacredHacks {
     padding-left: 2.25em; }
   .control.has-icon.has-icon-right .icon {
     right: 0; }
-  .control.has-icon.has-icon-right .input, .control.has-icon.has-icon-right input.mozhack {
+  .control.has-icon.has-icon-right .input, .control.has-icon.has-icon-right input.SacredHacks {
     padding-right: 2.25em; }
-  .control.has-icons-left .input:focus ~ .icon, .control.has-icons-left input.mozhack:focus ~ .icon,
-  .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon, .control.has-icons-right input.mozhack:focus ~ .icon,
+  .control.has-icons-left .input:focus ~ .icon, .control.has-icons-left input.SacredHacks:focus ~ .icon,
+  .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon, .control.has-icons-right input.SacredHacks:focus ~ .icon,
   .control.has-icons-right .select:focus ~ .icon {
     color: #7a7a7a; }
-  .control.has-icons-left .input.is-small ~ .icon, .control.has-icons-left input.is-small.mozhack ~ .icon,
-  .control.has-icons-left .select.is-small ~ .icon, .control.has-icons-right .input.is-small ~ .icon, .control.has-icons-right input.is-small.mozhack ~ .icon,
+  .control.has-icons-left .input.is-small ~ .icon, .control.has-icons-left input.is-small.SacredHacks ~ .icon,
+  .control.has-icons-left .select.is-small ~ .icon, .control.has-icons-right .input.is-small ~ .icon, .control.has-icons-right input.is-small.SacredHacks ~ .icon,
   .control.has-icons-right .select.is-small ~ .icon {
     font-size: 0.75rem; }
-  .control.has-icons-left .input.is-medium ~ .icon, .control.has-icons-left input.is-medium.mozhack ~ .icon,
-  .control.has-icons-left .select.is-medium ~ .icon, .control.has-icons-right .input.is-medium ~ .icon, .control.has-icons-right input.is-medium.mozhack ~ .icon,
+  .control.has-icons-left .input.is-medium ~ .icon, .control.has-icons-left input.is-medium.SacredHacks ~ .icon,
+  .control.has-icons-left .select.is-medium ~ .icon, .control.has-icons-right .input.is-medium ~ .icon, .control.has-icons-right input.is-medium.SacredHacks ~ .icon,
   .control.has-icons-right .select.is-medium ~ .icon {
     font-size: 1.25rem; }
-  .control.has-icons-left .input.is-large ~ .icon, .control.has-icons-left input.is-large.mozhack ~ .icon,
-  .control.has-icons-left .select.is-large ~ .icon, .control.has-icons-right .input.is-large ~ .icon, .control.has-icons-right input.is-large.mozhack ~ .icon,
+  .control.has-icons-left .input.is-large ~ .icon, .control.has-icons-left input.is-large.SacredHacks ~ .icon,
+  .control.has-icons-left .select.is-large ~ .icon, .control.has-icons-right .input.is-large ~ .icon, .control.has-icons-right input.is-large.SacredHacks ~ .icon,
   .control.has-icons-right .select.is-large ~ .icon {
     font-size: 1.5rem; }
   .control.has-icons-left .icon, .control.has-icons-right .icon {
@@ -2765,12 +2765,12 @@ a.box:active {
     top: 0;
     width: 2.25em;
     z-index: 4; }
-  .control.has-icons-left .input, .control.has-icons-left input.mozhack,
+  .control.has-icons-left .input, .control.has-icons-left input.SacredHacks,
   .control.has-icons-left .select select {
     padding-left: 2.25em; }
   .control.has-icons-left .icon.is-left {
     left: 0; }
-  .control.has-icons-right .input, .control.has-icons-right input.mozhack,
+  .control.has-icons-right .input, .control.has-icons-right input.SacredHacks,
   .control.has-icons-right .select select {
     padding-right: 2.25em; }
   .control.has-icons-right .icon.is-right {
@@ -2869,7 +2869,7 @@ a.box:active {
   position: relative; }
   .notification:not(:last-child) {
     margin-bottom: 1.5rem; }
-  .notification a:not(.button):not(button.mozhack):not(a.button.mozhack) {
+  .notification a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks) {
     color: currentColor;
     text-decoration: underline; }
   .notification strong {
@@ -3237,7 +3237,7 @@ a.box:active {
       background-color: #e8e8e8; }
     .tag:not(body).is-delete:active {
       background-color: #dbdbdb; }
-  .tag:not(body).is-rounded, button.tag.mozhack:not(body), a.tag.mozhack.button:not(body), input.tag.mozhack:not(body) {
+  .tag:not(body).is-rounded, button.tag.SacredHacks:not(body), a.tag.SacredHacks.button:not(body), input.tag.SacredHacks:not(body) {
     border-radius: 290486px; }
 
 a.tag:hover {
@@ -3765,7 +3765,7 @@ a.dropdown-item {
     margin-bottom: 1.5rem; }
   .message strong {
     color: currentColor; }
-  .message a:not(.button):not(button.mozhack):not(a.button.mozhack):not(.tag) {
+  .message a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks):not(.tag) {
     color: currentColor;
     text-decoration: underline; }
   .message.is-small {
@@ -4026,7 +4026,7 @@ a.dropdown-item {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   border-top: 1px solid #dbdbdb; }
-  .modal-card-foot .button:not(:last-child), .modal-card-foot button.mozhack:not(:last-child) {
+  .modal-card-foot .button:not(:last-child), .modal-card-foot button.SacredHacks:not(:last-child) {
     margin-right: 10px; }
 
 .modal-card-body {
@@ -4736,12 +4736,12 @@ a.navbar-link.is-active {
     font-size: 1.25rem; }
   .pagination.is-large {
     font-size: 1.5rem; }
-  .pagination.is-rounded .pagination-previous, button.pagination.mozhack .pagination-previous, a.pagination.mozhack.button .pagination-previous, input.pagination.mozhack .pagination-previous,
-  .pagination.is-rounded .pagination-next, button.pagination.mozhack .pagination-next, a.pagination.mozhack.button .pagination-next, input.pagination.mozhack .pagination-next {
+  .pagination.is-rounded .pagination-previous, button.pagination.SacredHacks .pagination-previous, a.pagination.SacredHacks.button .pagination-previous, input.pagination.SacredHacks .pagination-previous,
+  .pagination.is-rounded .pagination-next, button.pagination.SacredHacks .pagination-next, a.pagination.SacredHacks.button .pagination-next, input.pagination.SacredHacks .pagination-next {
     padding-left: 1em;
     padding-right: 1em;
     border-radius: 290486px; }
-  .pagination.is-rounded .pagination-link, button.pagination.mozhack .pagination-link, a.pagination.mozhack.button .pagination-link, input.pagination.mozhack .pagination-link {
+  .pagination.is-rounded .pagination-link, button.pagination.SacredHacks .pagination-link, a.pagination.SacredHacks.button .pagination-link, input.pagination.SacredHacks .pagination-link {
     border-radius: 290486px; }
 
 .pagination,
@@ -6002,14 +6002,14 @@ label.panel-block {
   .hero.is-white {
     background-color: white;
     color: #0a0a0a; }
-    .hero.is-white a:not(.button):not(button.mozhack):not(a.button.mozhack):not(.dropdown-item):not(.tag),
+    .hero.is-white a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks):not(.dropdown-item):not(.tag),
     .hero.is-white strong {
       color: inherit; }
     .hero.is-white .title {
       color: #0a0a0a; }
     .hero.is-white .subtitle {
       color: rgba(10, 10, 10, 0.9); }
-      .hero.is-white .subtitle a:not(.button):not(button.mozhack):not(a.button.mozhack),
+      .hero.is-white .subtitle a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks),
       .hero.is-white .subtitle strong {
         color: #0a0a0a; }
     @media screen and (max-width: 1023px) {
@@ -6046,14 +6046,14 @@ label.panel-block {
   .hero.is-black {
     background-color: #0a0a0a;
     color: white; }
-    .hero.is-black a:not(.button):not(button.mozhack):not(a.button.mozhack):not(.dropdown-item):not(.tag),
+    .hero.is-black a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks):not(.dropdown-item):not(.tag),
     .hero.is-black strong {
       color: inherit; }
     .hero.is-black .title {
       color: white; }
     .hero.is-black .subtitle {
       color: rgba(255, 255, 255, 0.9); }
-      .hero.is-black .subtitle a:not(.button):not(button.mozhack):not(a.button.mozhack),
+      .hero.is-black .subtitle a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks),
       .hero.is-black .subtitle strong {
         color: white; }
     @media screen and (max-width: 1023px) {
@@ -6090,14 +6090,14 @@ label.panel-block {
   .hero.is-light {
     background-color: whitesmoke;
     color: #363636; }
-    .hero.is-light a:not(.button):not(button.mozhack):not(a.button.mozhack):not(.dropdown-item):not(.tag),
+    .hero.is-light a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks):not(.dropdown-item):not(.tag),
     .hero.is-light strong {
       color: inherit; }
     .hero.is-light .title {
       color: #363636; }
     .hero.is-light .subtitle {
       color: rgba(54, 54, 54, 0.9); }
-      .hero.is-light .subtitle a:not(.button):not(button.mozhack):not(a.button.mozhack),
+      .hero.is-light .subtitle a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks),
       .hero.is-light .subtitle strong {
         color: #363636; }
     @media screen and (max-width: 1023px) {
@@ -6134,14 +6134,14 @@ label.panel-block {
   .hero.is-dark {
     background-color: #363636;
     color: whitesmoke; }
-    .hero.is-dark a:not(.button):not(button.mozhack):not(a.button.mozhack):not(.dropdown-item):not(.tag),
+    .hero.is-dark a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks):not(.dropdown-item):not(.tag),
     .hero.is-dark strong {
       color: inherit; }
     .hero.is-dark .title {
       color: whitesmoke; }
     .hero.is-dark .subtitle {
       color: rgba(245, 245, 245, 0.9); }
-      .hero.is-dark .subtitle a:not(.button):not(button.mozhack):not(a.button.mozhack),
+      .hero.is-dark .subtitle a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks),
       .hero.is-dark .subtitle strong {
         color: whitesmoke; }
     @media screen and (max-width: 1023px) {
@@ -6178,14 +6178,14 @@ label.panel-block {
   .hero.is-primary {
     background-color: #ED76CB;
     color: #FEFE66; }
-    .hero.is-primary a:not(.button):not(button.mozhack):not(a.button.mozhack):not(.dropdown-item):not(.tag),
+    .hero.is-primary a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks):not(.dropdown-item):not(.tag),
     .hero.is-primary strong {
       color: inherit; }
     .hero.is-primary .title {
       color: #FEFE66; }
     .hero.is-primary .subtitle {
       color: rgba(254, 254, 102, 0.9); }
-      .hero.is-primary .subtitle a:not(.button):not(button.mozhack):not(a.button.mozhack),
+      .hero.is-primary .subtitle a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks),
       .hero.is-primary .subtitle strong {
         color: #FEFE66; }
     @media screen and (max-width: 1023px) {
@@ -6222,14 +6222,14 @@ label.panel-block {
   .hero.is-link {
     background-color: #3273dc;
     color: #fff; }
-    .hero.is-link a:not(.button):not(button.mozhack):not(a.button.mozhack):not(.dropdown-item):not(.tag),
+    .hero.is-link a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks):not(.dropdown-item):not(.tag),
     .hero.is-link strong {
       color: inherit; }
     .hero.is-link .title {
       color: #fff; }
     .hero.is-link .subtitle {
       color: rgba(255, 255, 255, 0.9); }
-      .hero.is-link .subtitle a:not(.button):not(button.mozhack):not(a.button.mozhack),
+      .hero.is-link .subtitle a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks),
       .hero.is-link .subtitle strong {
         color: #fff; }
     @media screen and (max-width: 1023px) {
@@ -6266,14 +6266,14 @@ label.panel-block {
   .hero.is-info {
     background-color: #65dde4;
     color: rgba(0, 0, 0, 0.7); }
-    .hero.is-info a:not(.button):not(button.mozhack):not(a.button.mozhack):not(.dropdown-item):not(.tag),
+    .hero.is-info a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks):not(.dropdown-item):not(.tag),
     .hero.is-info strong {
       color: inherit; }
     .hero.is-info .title {
       color: rgba(0, 0, 0, 0.7); }
     .hero.is-info .subtitle {
       color: rgba(0, 0, 0, 0.9); }
-      .hero.is-info .subtitle a:not(.button):not(button.mozhack):not(a.button.mozhack),
+      .hero.is-info .subtitle a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks),
       .hero.is-info .subtitle strong {
         color: rgba(0, 0, 0, 0.7); }
     @media screen and (max-width: 1023px) {
@@ -6310,14 +6310,14 @@ label.panel-block {
   .hero.is-success {
     background-color: #23d160;
     color: #fff; }
-    .hero.is-success a:not(.button):not(button.mozhack):not(a.button.mozhack):not(.dropdown-item):not(.tag),
+    .hero.is-success a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks):not(.dropdown-item):not(.tag),
     .hero.is-success strong {
       color: inherit; }
     .hero.is-success .title {
       color: #fff; }
     .hero.is-success .subtitle {
       color: rgba(255, 255, 255, 0.9); }
-      .hero.is-success .subtitle a:not(.button):not(button.mozhack):not(a.button.mozhack),
+      .hero.is-success .subtitle a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks),
       .hero.is-success .subtitle strong {
         color: #fff; }
     @media screen and (max-width: 1023px) {
@@ -6354,14 +6354,14 @@ label.panel-block {
   .hero.is-warning {
     background-color: #ffdd57;
     color: rgba(0, 0, 0, 0.7); }
-    .hero.is-warning a:not(.button):not(button.mozhack):not(a.button.mozhack):not(.dropdown-item):not(.tag),
+    .hero.is-warning a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks):not(.dropdown-item):not(.tag),
     .hero.is-warning strong {
       color: inherit; }
     .hero.is-warning .title {
       color: rgba(0, 0, 0, 0.7); }
     .hero.is-warning .subtitle {
       color: rgba(0, 0, 0, 0.9); }
-      .hero.is-warning .subtitle a:not(.button):not(button.mozhack):not(a.button.mozhack),
+      .hero.is-warning .subtitle a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks),
       .hero.is-warning .subtitle strong {
         color: rgba(0, 0, 0, 0.7); }
     @media screen and (max-width: 1023px) {
@@ -6398,14 +6398,14 @@ label.panel-block {
   .hero.is-danger {
     background-color: #ef6c67;
     color: #fff; }
-    .hero.is-danger a:not(.button):not(button.mozhack):not(a.button.mozhack):not(.dropdown-item):not(.tag),
+    .hero.is-danger a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks):not(.dropdown-item):not(.tag),
     .hero.is-danger strong {
       color: inherit; }
     .hero.is-danger .title {
       color: #fff; }
     .hero.is-danger .subtitle {
       color: rgba(255, 255, 255, 0.9); }
-      .hero.is-danger .subtitle a:not(.button):not(button.mozhack):not(a.button.mozhack),
+      .hero.is-danger .subtitle a:not(.button):not(button.SacredHacks):not(a.button.SacredHacks),
       .hero.is-danger .subtitle strong {
         color: #fff; }
     @media screen and (max-width: 1023px) {
@@ -6484,15 +6484,15 @@ label.panel-block {
 .hero-buttons {
   margin-top: 1.5rem; }
   @media screen and (max-width: 768px) {
-    .hero-buttons .button, .hero-buttons button.mozhack, .hero-buttons a.button.mozhack {
+    .hero-buttons .button, .hero-buttons button.SacredHacks, .hero-buttons a.button.SacredHacks {
       display: flex; }
-      .hero-buttons .button:not(:last-child), .hero-buttons button.mozhack:not(:last-child) {
+      .hero-buttons .button:not(:last-child), .hero-buttons button.SacredHacks:not(:last-child) {
         margin-bottom: 0.75rem; } }
   @media screen and (min-width: 769px), print {
     .hero-buttons {
       display: flex;
       justify-content: center; }
-      .hero-buttons .button:not(:last-child), .hero-buttons button.mozhack:not(:last-child) {
+      .hero-buttons .button:not(:last-child), .hero-buttons button.SacredHacks:not(:last-child) {
         margin-right: 1.5rem; } }
 
 .hero-head,
@@ -6539,21 +6539,21 @@ html, body {
   font-weight: 700;
   src: url("../fonts/Graphik-Bold.woff"); }
 
-button.mozhack, a.mozhack.button {
+button.SacredHacks, a.SacredHacks.button {
   border-width: 0px !important;
   height: 48px;
   font-weight: bold;
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   min-width: 200px; }
-  button.mozhack.outline, a.mozhack.outline.button {
+  button.SacredHacks.outline, a.SacredHacks.outline.button {
     background-color: transparent;
     border: 2px solid #ED76CB !important;
     color: #ED76CB; }
-  button.mozhack.small, a.mozhack.small.button {
+  button.SacredHacks.small, a.SacredHacks.small.button {
     min-width: 150px;
     height: 36px; }
 
-input.mozhack {
+input.SacredHacks {
   border-width: 0px;
   height: 48px;
   margin-bottom: 16px;
@@ -6568,36 +6568,36 @@ input.mozhack {
   -moz-box-shadow: none !important;
   /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
   box-shadow: none !important; }
-  input.mozhack::-webkit-input-placeholder {
+  input.SacredHacks::-webkit-input-placeholder {
     color: white;
     opacity: 1; }
-  input.mozhack::-moz-placeholder {
+  input.SacredHacks::-moz-placeholder {
     color: white;
     opacity: 1; }
-  input.mozhack:-moz-placeholder {
+  input.SacredHacks:-moz-placeholder {
     color: white;
     opacity: 1; }
-  input.mozhack:-ms-input-placeholder {
+  input.SacredHacks:-ms-input-placeholder {
     color: white;
     opacity: 1; }
-  input.mozhack::placeholder {
+  input.SacredHacks::placeholder {
     color: white;
     opacity: 1; }
-  input.mozhack.light {
+  input.SacredHacks.light {
     border-width: 1px;
     background-color: white;
     color: #0a0a0a; }
-    input.mozhack.light::-webkit-input-placeholder {
+    input.SacredHacks.light::-webkit-input-placeholder {
       color: #7a7a7a; }
-    input.mozhack.light::-moz-placeholder {
+    input.SacredHacks.light::-moz-placeholder {
       color: #7a7a7a; }
-    input.mozhack.light:-moz-placeholder {
+    input.SacredHacks.light:-moz-placeholder {
       color: #7a7a7a; }
-    input.mozhack.light:-ms-input-placeholder {
+    input.SacredHacks.light:-ms-input-placeholder {
       color: #7a7a7a; }
-    input.mozhack.light::placeholder {
+    input.SacredHacks.light::placeholder {
       color: #7a7a7a; }
-  input.mozhack.translucent {
+  input.SacredHacks.translucent {
     background-color: rgba(255, 255, 255, 0.1); }
 
 .field p.help {
@@ -6640,7 +6640,7 @@ nav.navbar {
       font-weight: 700; }
       nav.navbar .navbar-menu a.navbar-item:hover {
         color: #0a0a0a !important; }
-    nav.navbar .navbar-menu .button, nav.navbar .navbar-menu button.mozhack {
+    nav.navbar .navbar-menu .button, nav.navbar .navbar-menu button.SacredHacks {
       font-weight: 700; }
 
 .flash {
@@ -6923,7 +6923,7 @@ section.section.schedule {
 
 section.section.faqs {
   padding-top: 8rem;
-  background-image: url("../img/mozhack5-shapes.svg");
+  background-image: url("../img/SacredHacks5-shapes.svg");
   background-size: 100% auto;
   background-repeat: repeat-x; }
   section.section.faqs h1.title {
