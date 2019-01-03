@@ -1,35 +1,30 @@
 {
-  "name": "moz-hack-3",
+  "name": "website-2019",
   "version": "1.0.0",
-  "description": "Website for Moz-HACK 3.0",
+  "description": "demo at [https://hackdavis.netlify.com](https://hackdavis.netlify.com)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "stylelint": "stylelint --syntax scss **/*.scss",
-    "lint": "npm run eslint && npm run stylelint",
-    "prettier": "prettier --write '**'",
-    "prettier-ci": "npm run prettier -- --list-different || (echo '\n\nThis failure means you did not run `yarn prettier-dev` before committing\n\n' && exit 1)",
-    "prettier-dev": "pretty-quick --branch master"
+    "start": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/championshuttler/moz-hack-3.git"
+    "url": "git+https://github.com/HackDavis/website-2019.git"
   },
-  "author": "championshuttler",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/championshuttler/moz-hack-3/issues"
+    "url": "https://github.com/HackDavis/website-2019/issues"
   },
-  "homepage": "https://github.com/championshuttler/moz-hack-3#readme",
+  "homepage": "https://github.com/HackDavis/website-2019#readme",
   "devDependencies": {
-    "autoprefixer": "^8.0.0",
-    "eslint": "^4.15.0",
-    "eslint-plugin-promise": "^3.5.0",
-    "prettier": "1.13.7",
-    "pretty-quick": "1.6.0",
-    "stylelint": "^9.1.1",
-    "stylelint-config-standard": "^18.2.0",
-    "stylelint-config-suitcss": "^14.0.0",
-    "svg-url-loader": "^2.0.2"
+    "css-loader": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-easing-gradients": "^3.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-svg": "^2.4.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
   }
 }
