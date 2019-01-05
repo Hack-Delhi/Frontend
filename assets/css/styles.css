@@ -1044,4 +1044,8 @@ progress::-webkit-progress-bar {
 }
 .teamName{
   align-self: center;
+  font-size: 1.2em;
+}
+.teamIcon{
+  color: aquamarine;
 }
