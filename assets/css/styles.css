@@ -1033,3 +1033,15 @@ progress::-webkit-progress-bar {
     border-right: 1px solid #7FFFD6;
   }
 }
+.team{
+  border-radius: 50%;
+}
+.teamBG{
+  border-width: 10px;
+  border-style: hidden;
+  vertical-align: middle;
+  padding: 15px;
+}
+.teamName{
+  align-self: center;
+}
