@@ -1,7 +1,7 @@
 import './scroll-entrance.min.js'
 // set typed
 var typed = new Typed('#typed', {
-  strings: ['// code for social good'],
+  strings: ['Powered by UltraHack'],
   typeSpeed: 30,
   backSpeed: 8,
   backDelay: 3500,
