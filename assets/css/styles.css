@@ -1049,3 +1049,6 @@ progress::-webkit-progress-bar {
 .teamIcon{
   color: aquamarine;
 }
+.imgSize{
+  width: 50%;
+}
