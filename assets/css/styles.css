@@ -226,10 +226,10 @@ a:link,
 :hover,
 :active {
   text-decoration: none !important;
-  -webkit-transition: all .40s ease;
-  -moz-transition: all .40s ease;
-  -o-transition: all .40s ease;
-  transition: all .40s ease;
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
 }
 
 .center {
@@ -435,7 +435,7 @@ button.sponsor-us:hover {
 
 .landing-picture {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   height: 100%;
 }
 
@@ -464,7 +464,7 @@ button.sponsor-us:hover {
 }
 
 .stats-content {
-  margin-top: 0px;
+  margin-top: 60px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
@@ -509,16 +509,6 @@ h2.stats {
 .list-features li h2 small {
   font-size: .84em;
   font-weight: 900;
-}
-
-/******* recap *******/
-
-.recap-photos {
-  padding-bottom: 50px;
-}
-
-.recap-video {
-  text-align: center;
 }
 
 /******* about *******/
@@ -584,7 +574,7 @@ img.tracks-img {
 
 .tracks-picture {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   flex-direction: column;
   flex-grow: 0;
 }
@@ -594,7 +584,7 @@ h2.tracks-title {
   font-size: 1.7rem;
   font-weight: 700;
   color: #fff;
-  text-align: left;
+  text-align: center;
 }
 
 p.tracks-des {
@@ -638,7 +628,7 @@ p.tracks-des {
 
 .event {
 	height: 55px;
-	width: 17rem;
+	width: 15rem;
 	margin: 0 auto;
 	text-align: center;
   padding-bottom: 20px;
@@ -659,7 +649,7 @@ p.tracks-des {
 .time {
 	font-size: 1.94rem;
 	font-weight: 500;
-	width: 70px;
+	width: 40px;
 	line-height: 40px;
 	height: 40px;
   float: left;
@@ -669,7 +659,7 @@ p.tracks-des {
 .time-box {
 	border-top: 1px solid #7FFFD6;
 	position: absolute;
-	width: 130px;
+	width: 100px;
 	height: 30px;
 	-webkit-transform: translate(-60px, -4px);
   -moz-transform: translate(-60px, -4px);
