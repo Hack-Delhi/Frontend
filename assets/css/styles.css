@@ -1132,3 +1132,11 @@ progress::-webkit-progress-bar {
     border-right: 1px solid #7FFFD6;
   }
 }
+
+.imgSize{
+  width: 50%;
+}
+
+.Width40{
+  width: 40%
+}
